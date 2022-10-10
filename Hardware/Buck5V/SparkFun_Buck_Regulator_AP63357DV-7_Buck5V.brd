@@ -24,7 +24,7 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
@@ -223,6 +223,12 @@
 <text x="6.731" y="43.815" size="1.016" layer="47" font="vector">UNITS IN INCHES</text>
 <wire x1="3.683" y1="17.78" x2="3.683" y2="7.239" width="4.5212" layer="48"/>
 <wire x1="3.683" y1="7.239" x2="0.635" y2="4.191" width="4.5212" layer="48"/>
+<wire x1="8.255" y1="13.589" x2="9.08811875" y2="13.589" width="0.2032" layer="21"/>
+<wire x1="10.033" y1="13.589" x2="9.08811875" y2="13.589" width="0.2032" layer="21"/>
+<wire x1="9.08811875" y1="13.589" x2="9.08811875" y2="11.811" width="0.2032" layer="21"/>
+<wire x1="10.99311875" y1="15.864840625" x2="10.99311875" y2="15.102840625" width="0.2032" layer="21"/>
+<wire x1="16.068040625" y1="14.71168125" x2="16.068040625" y2="11.79068125" width="0.2032" layer="21"/>
+<wire x1="17.465040625" y1="10.530840625" x2="17.465040625" y2="7.736840625" width="0.2032" layer="21"/>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
