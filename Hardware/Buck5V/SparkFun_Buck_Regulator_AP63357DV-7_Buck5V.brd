@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mil" altunit="mil"/>
@@ -201,10 +201,9 @@
 <dimension x1="0" y1="25.4" x2="25.4" y2="25.4" x3="12.7" y3="39.878" textsize="0.889" textratio="15" layer="47" dtype="horizontal" unit="inch"/>
 <dimension x1="0" y1="0" x2="2.54" y2="2.54" x3="-0.635" y3="1.27" textsize="0.889" textratio="15" layer="47" dtype="vertical" unit="inch"/>
 <dimension x1="0" y1="0" x2="3.683" y2="17.78" x3="-3.175" y3="8.89" textsize="0.889" textratio="15" layer="47" dtype="vertical" unit="inch"/>
-<dimension x1="0" y1="0" x2="23.495" y2="17.78" x3="28.321" y3="8.89" textsize="0.889" textratio="15" layer="47" dtype="vertical" unit="inch"/>
 <dimension x1="0" y1="0" x2="2.54" y2="22.86" x3="-5.334" y3="11.43" textsize="0.889" textratio="15" layer="47" dtype="vertical" unit="inch"/>
 <dimension x1="0" y1="0" x2="0" y2="25.4" x3="-8.128" y3="12.7" textsize="0.889" textratio="15" layer="47" dtype="vertical" unit="inch"/>
-<text x="49.149" y="-8.89" size="1.778" layer="51" font="vector" ratio="15">Alex Brudner</text>
+<text x="48.768" y="-16.383" size="1.778" layer="51" font="vector" ratio="15">Alex Brudner</text>
 <wire x1="7.493" y1="14.653259375" x2="7.112" y2="14.272259375" width="0.2032" layer="21"/>
 <wire x1="7.112" y1="14.272259375" x2="7.7851" y2="14.272259375" width="0.2032" layer="21"/>
 <wire x1="7.7851" y1="14.272259375" x2="7.7851" y2="10.716259375" width="0.2032" layer="21"/>
@@ -212,6 +211,18 @@
 <wire x1="7.112" y1="14.272259375" x2="7.493" y2="13.891259375" width="0.2032" layer="21"/>
 <wire x1="7.493" y1="11.097259375" x2="7.112" y2="10.716259375" width="0.2032" layer="21"/>
 <wire x1="7.112" y1="10.716259375" x2="7.493" y2="10.335259375" width="0.2032" layer="21"/>
+<dimension x1="0" y1="0" x2="12.827" y2="9.906" x3="6.4135" y3="-2.286" textsize="0.889" layer="47" dtype="horizontal" unit="inch"/>
+<dimension x1="0" y1="0" x2="12.827" y2="9.906" x3="27.178" y3="4.953" textsize="0.889" layer="47" dtype="vertical" unit="inch"/>
+<dimension x1="5.207" y1="16.256" x2="20.447" y2="16.256" x3="12.827" y3="-6.096" textsize="0.889" layer="47" unit="inch"/>
+<dimension x1="5.207" y1="16.256" x2="5.207" y2="3.556" x3="30.607" y3="9.906" textsize="0.889" layer="47" unit="inch"/>
+<dimension x1="0" y1="0" x2="23.495" y2="17.78" x3="32.258" y3="8.89" textsize="0.889" layer="47" dtype="vertical" unit="inch"/>
+<text x="37.338" y="22.479" size="1.778" layer="51" font="vector">Board thickness is 0.8mm
+4-Layer
+1oz copper outer
+1oz copper inner</text>
+<text x="6.731" y="43.815" size="1.016" layer="47" font="vector">UNITS IN INCHES</text>
+<wire x1="3.683" y1="17.78" x2="3.683" y2="7.239" width="4.5212" layer="48"/>
+<wire x1="3.683" y1="7.239" x2="0.635" y2="4.191" width="4.5212" layer="48"/>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
@@ -4417,7 +4428,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules name="SparkFun-4-Layer-Minimum-JLCPCB">
+<designrules name="SparkFun-4-Layer-Minimum-JLCPCB *">
 <description language="en">&lt;b&gt;4 Layer Minimum Rules for JLCPCB&lt;/b&gt;
 &lt;p&gt;
 These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;quoted by JLCPCB&lt;/a&gt; to produce a 4-layer PCB design rules. These rules are &quot;free&quot; and generally low-cost. There is one DRC set that is smaller (see MicroMod rules) but boards designed with these rules should pass review without question.
@@ -4429,8 +4440,8 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 &lt;li&gt;2.5mil Stop Mask&lt;/li&gt;
 &lt;/ul&gt;</description>
 <param name="layerSetup" value="(1*2*15*16)"/>
-<param name="mtCopper" value="0.035559375mm 0.035559375mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035559375mm 0.035559375mm"/>
-<param name="mtIsolate" value="0.47751875mm 0.47751875mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.47751875mm"/>
+<param name="mtCopper" value="0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm"/>
+<param name="mtIsolate" value="0.2104mm 0.24mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2104mm"/>
 <param name="mdWireWire" value="5mil"/>
 <param name="mdWirePad" value="5mil"/>
 <param name="mdWireVia" value="5mil"/>
@@ -4597,9 +4608,9 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 </pass>
 </autorouter>
 <elements>
-<element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LEDGER" x="21.59" y="-8.89" smashed="yes">
-<attribute name="DESIGNER" value="Alex Brudner" x="21.59" y="-8.89" size="1.778" layer="27" display="off"/>
-<attribute name="REV" value="v01" x="21.59" y="-8.89" size="1.778" layer="27" display="off"/>
+<element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LEDGER" x="21.209" y="-16.383" smashed="yes">
+<attribute name="DESIGNER" value="Alex Brudner" x="21.209" y="-16.383" size="1.778" layer="27" display="off"/>
+<attribute name="REV" value="v01" x="21.209" y="-16.383" size="1.778" layer="27" display="off"/>
 </element>
 <element name="FD1" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="24.765" y="0.635" smashed="yes"/>
 <element name="FD2" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="0.635" y="24.765" smashed="yes"/>
@@ -4729,7 +4740,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <element name="U$20" library="output" package="PWR0" value="" x="18.415" y="0.889" smashed="yes"/>
 <element name="U$21" library="output" package="#GND#1" value="" x="9.11351875" y="11.129009375" smashed="yes"/>
 <element name="U$22" library="SparkFun-Aesthetics" package="HIGH_TEMP_WARNING" value="" x="18.161" y="4.445" smashed="yes"/>
-<element name="U$23" library="SparkFun-Aesthetics" package="ORDERING_INSTRUCTIONS" value="" x="32.385" y="50.927" smashed="yes"/>
+<element name="U$23" library="SparkFun-Aesthetics" package="ORDERING_INSTRUCTIONS" value="" x="35.56" y="43.053" smashed="yes"/>
 </elements>
 <signals>
 <signal name="FB">
@@ -5060,17 +5071,17 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <mfgpreviewcolor name="substratecolor" color="0xFF474029"/>
 </mfgpreviewcolors>
 <errors>
-<approved hash="19,1,ad103d9142144ac2"/>
-<approved hash="19,1,19461c758b918ea2"/>
-<approved hash="19,16,a81aacba78b5441a"/>
 <approved hash="19,1,29382c084c6c495c"/>
 <approved hash="19,1,1b48fa240caff22b"/>
-<approved hash="19,16,2bc22023f425c7c2"/>
 <approved hash="19,16,28d92cb8f8b8c4d9"/>
 </errors>
 </board>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.3" severity="warning">
 Since Version 8.3, EAGLE supports URNs for individual library
 assets (packages, symbols, and devices). The URNs of those assets
