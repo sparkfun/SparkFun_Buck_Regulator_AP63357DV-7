@@ -2425,32 +2425,32 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 </pass>
 </autorouter>
 <elements>
-<element name="C4" library="SparkFun-Capacitors" package="0402-TIGHT" value="47pF" x="1.905" y="7.62" smashed="yes" rot="R90">
+<element name="C1" library="SparkFun-Capacitors" package="0402-TIGHT" value="47pF" x="1.905" y="7.62" smashed="yes" rot="R90">
 <attribute name="NAME" x="1.343" y="7.62" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
 <attribute name="PROD_ID" value="CAP-15063" x="24.765" y="21.59" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="2.467" y="7.62" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
-<element name="C3" library="SparkFun-Capacitors" package="0402-TIGHT" value="0.1uF" x="1.905" y="5.588" smashed="yes" rot="R270">
+<element name="C2" library="SparkFun-Capacitors" package="0402-TIGHT" value="0.1uF" x="1.905" y="5.588" smashed="yes" rot="R270">
 <attribute name="NAME" x="2.467" y="5.588" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="PROD_ID" value="CAP-12416" x="-15.875" y="-36.322" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="1.343" y="5.588" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
-<element name="C5" library="SparkFun-Capacitors" package="0805" value="22uF" x="11.811" y="5.588" smashed="yes" rot="R90">
+<element name="C3" library="SparkFun-Capacitors" package="0805" value="22uF" x="11.811" y="5.588" smashed="yes" rot="R90">
 <attribute name="NAME" x="10.922" y="5.588" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
 <attribute name="PROD_ID" value="CAP-14260" x="23.241" y="41.148" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="12.7" y="5.588" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
-<element name="C6" library="SparkFun-Capacitors" package="0805" value="22uF" x="11.811" y="2.032" smashed="yes" rot="R270">
+<element name="C4" library="SparkFun-Capacitors" package="0805" value="22uF" x="11.811" y="2.032" smashed="yes" rot="R270">
 <attribute name="NAME" x="12.7" y="2.032" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="PROD_ID" value="CAP-14260" x="0.381" y="-37.338" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="10.922" y="2.032" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
-<element name="C2" library="SparkFun-Capacitors" package="0805" value="4.7uF" x="8.763" y="9.017" smashed="yes" rot="R270">
+<element name="C6" library="SparkFun-Capacitors" package="0805" value="4.7uF" x="8.763" y="9.017" smashed="yes" rot="R270">
 <attribute name="NAME" x="9.652" y="9.017" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="PROD_ID" value="CAP-15457" x="-2.667" y="-34.163" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="7.874" y="9.017" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
-<element name="C1" library="SparkFun-Capacitors" package="0805" value="4.7uF" x="6.985" y="9.017" smashed="yes" rot="R270">
+<element name="C5" library="SparkFun-Capacitors" package="0805" value="4.7uF" x="6.985" y="9.017" smashed="yes" rot="R270">
 <attribute name="NAME" x="7.874" y="9.017" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="PROD_ID" value="CAP-15457" x="-12.065" y="-6.223" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="6.096" y="9.017" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
@@ -2473,23 +2473,23 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 </element>
 <element name="LOGO2" library="SparkFun-Aesthetics" package="OSHW-LOGO-MINI" value="OSHW-LOGOMINI" x="1.524" y="2.032" smashed="yes" rot="R180"/>
 <element name="LOGO1" library="SparkFun-Aesthetics" package="BLANK" value="SFE_LOGO_NAME_FLAMEBLANK" x="14.859" y="0.254" smashed="yes"/>
-<element name="R3" library="SparkFun-Resistors" package="0402-TIGHT" value="150k" x="0.889" y="7.62" smashed="yes" rot="R270">
+<element name="R1" library="SparkFun-Resistors" package="0402-TIGHT" value="150k" x="0.889" y="7.62" smashed="yes" rot="R270">
 <attribute name="NAME" x="1.451" y="7.62" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="PROD_ID" value="RES-15093" x="-16.891" y="-36.83" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="RES" value="150k" x="-16.891" y="-36.83" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="0.327" y="7.62" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
-<element name="R4" library="Buck5V" package="0402-TIGHT" value="28.7k" x="1.905" y="9.652" smashed="yes" rot="R270">
+<element name="R2" library="Buck5V" package="0402-TIGHT" value="28.7k" x="1.905" y="9.652" smashed="yes" rot="R270">
 <attribute name="NAME" x="2.467" y="9.652" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="PROD_ID" value="RES-" x="-15.875" y="-24.638" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="1.343" y="9.652" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
-<element name="R1" library="Buck5V" package="0402-TIGHT" value="93.1k" x="5.461" y="11.43" smashed="yes">
+<element name="R3" library="Buck5V" package="0402-TIGHT" value="93.1k" x="5.461" y="11.43" smashed="yes">
 <attribute name="NAME" x="5.461" y="11.992" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="PROD_ID" value="RES-" x="43.561" y="-6.35" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="5.461" y="10.868" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="R2" library="SparkFun-Resistors" package="0402-TIGHT" value="22k" x="3.429" y="11.43" smashed="yes">
+<element name="R4" library="SparkFun-Resistors" package="0402-TIGHT" value="22k" x="3.429" y="11.43" smashed="yes">
 <attribute name="NAME" x="3.429" y="11.992" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="PROD_ID" value="RES-14281" x="19.939" y="-11.43" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="3.429" y="10.868" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
@@ -2518,9 +2518,9 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <signals>
 <signal name="FB">
 <contactref element="U1" pad="P$3"/>
-<contactref element="R3" pad="1"/>
-<contactref element="R4" pad="2"/>
-<contactref element="C4" pad="2"/>
+<contactref element="R1" pad="1"/>
+<contactref element="R2" pad="2"/>
+<contactref element="C1" pad="2"/>
 <polygon width="0.2032" layer="1" thermals="no" rank="2">
 <vertex x="3.53821875" y="10.19301875"/>
 <vertex x="3.53821875" y="9.12621875"/>
@@ -2538,7 +2538,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <contactref element="L1" pad="P$1"/>
 <contactref element="U1" pad="P$7"/>
 <contactref element="U1" pad="P$9"/>
-<contactref element="C3" pad="2"/>
+<contactref element="C2" pad="2"/>
 <polygon width="0.2032" layer="1" thermals="no">
 <vertex x="5.87501875" y="9.24051875"/>
 <vertex x="5.87501875" y="9.04748125"/>
@@ -2561,7 +2561,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 </polygon>
 </signal>
 <signal name="N$4">
-<contactref element="C3" pad="1"/>
+<contactref element="C2" pad="1"/>
 <contactref element="U1" pad="P$6"/>
 <polygon width="0.2032" layer="1" thermals="no" rank="2">
 <vertex x="3.556" y="8.509"/>
@@ -2577,15 +2577,15 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 </polygon>
 </signal>
 <signal name="GND">
-<contactref element="R2" pad="1"/>
+<contactref element="R4" pad="1"/>
 <contactref element="U1" pad="P$8"/>
 <contactref element="U1" pad="P$4"/>
-<contactref element="R4" pad="1"/>
+<contactref element="R2" pad="1"/>
+<contactref element="C4" pad="2"/>
+<contactref element="C3" pad="2"/>
 <contactref element="C6" pad="2"/>
-<contactref element="C5" pad="2"/>
-<contactref element="C2" pad="2"/>
 <contactref element="J1" pad="3"/>
-<contactref element="C1" pad="2"/>
+<contactref element="C5" pad="2"/>
 <polygon width="0.2032" layer="1" thermals="no" rank="3">
 <vertex x="4.351021875" y="8.691878125"/>
 <vertex x="6.0731375" y="8.691878125"/>
@@ -2692,8 +2692,8 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 </signal>
 <signal name="EN">
 <contactref element="U1" pad="P$2"/>
-<contactref element="R1" pad="1"/>
-<contactref element="R2" pad="2"/>
+<contactref element="R3" pad="1"/>
+<contactref element="R4" pad="2"/>
 <contactref element="J1" pad="1"/>
 <wire x1="3.929" y1="11.43" x2="3.943" y2="11.416" width="0.2032" layer="1"/>
 <wire x1="3.943" y1="11.416" x2="3.943" y2="9.994" width="0.2032" layer="1"/>
@@ -2704,10 +2704,10 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <wire x1="12.827" y1="12.573" x2="5.588" y2="12.573" width="0.2032" layer="1"/>
 </signal>
 <signal name="VIN">
-<contactref element="R1" pad="2"/>
+<contactref element="R3" pad="2"/>
 <contactref element="U1" pad="P$1"/>
-<contactref element="C2" pad="1"/>
-<contactref element="C1" pad="1"/>
+<contactref element="C6" pad="1"/>
+<contactref element="C5" pad="1"/>
 <contactref element="J1" pad="2"/>
 <polygon width="0.2032" layer="1" thermals="no" rank="2">
 <vertex x="4.318" y="9.525"/>
@@ -2730,11 +2730,11 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 </polygon>
 </signal>
 <signal name="5V">
-<contactref element="R3" pad="2"/>
-<contactref element="C4" pad="1"/>
+<contactref element="R1" pad="2"/>
+<contactref element="C1" pad="1"/>
 <contactref element="L1" pad="P$2"/>
-<contactref element="C6" pad="1"/>
-<contactref element="C5" pad="1"/>
+<contactref element="C4" pad="1"/>
+<contactref element="C3" pad="1"/>
 <contactref element="J1" pad="4"/>
 <polygon width="0.254" layer="1" isolate="0.2032" thermals="no">
 <vertex x="14.859" y="4.953"/>
