@@ -20343,6 +20343,10 @@ Part Number: HA-522</description>
 Output Current: 3.5A MAX</text>
 <text x="10.16" y="30.48" size="2.54" layer="94" font="vector" align="center">Connector</text>
 <wire x1="45.72" y1="35.56" x2="0" y2="35.56" width="0.2032" layer="97" style="longdash"/>
+<text x="96.52" y="124.46" size="1.778" layer="97" font="vector" align="center-left">UVLO Hi: 5.6V
+UVLO Lo: 5.18V
+See Datasheet pg 15 Eq. 2+3 
+For calculating R3/R4</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$2" x="45.72" y="0" smashed="yes">
