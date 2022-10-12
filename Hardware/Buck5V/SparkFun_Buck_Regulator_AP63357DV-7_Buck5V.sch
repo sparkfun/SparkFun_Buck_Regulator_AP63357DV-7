@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -22241,12 +22241,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="121.92" y1="68.58" x2="177.8" y2="68.58" width="0.2032" layer="97" style="longdash"/>
 <wire x1="177.8" y1="68.58" x2="223.52" y2="68.58" width="0.2032" layer="97" style="longdash"/>
 <wire x1="121.92" y1="35.56" x2="0" y2="35.56" width="0.2032" layer="97" style="longdash"/>
-<text x="180.34" y="139.7" size="2.54" layer="94" font="vector">Power LED</text>
+<text x="190.5" y="139.7" size="2.54" layer="94" font="vector" align="center">Power LED</text>
 <wire x1="177.8" y1="144.78" x2="177.8" y2="68.58" width="0.2032" layer="97" style="longdash"/>
-<text x="2.54" y="30.48" size="2.54" layer="94" font="vector">Connectors</text>
-<text x="2.54" y="139.7" size="2.54" layer="94" font="vector">AP63357 5V Switching Buck Regulator</text>
+<text x="12.7" y="30.48" size="2.54" layer="94" font="vector" align="center">Connectors</text>
+<text x="35.56" y="139.7" size="2.54" layer="94" font="vector" align="center">5V Switching Buck Regulator - AP63357</text>
 <text x="45.72" y="53.34" size="1.778" layer="97" font="vector">Input Range: 6V to 32V
 Output Current: 3.5A MAX</text>
+<text x="200.66" y="76.2" size="1.778" layer="97" font="vector" align="center">Cut trace to
+disconnect LED.</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$2" x="121.92" y="0" smashed="yes">
@@ -22254,7 +22256,7 @@ Output Current: 3.5A MAX</text>
 <attribute name="SHEET" x="208.28" y="1.27" size="2.54" layer="94" font="vector"/>
 <attribute name="DRAWING_NAME" x="137.414" y="17.78" size="2.7432" layer="94" font="vector"/>
 <attribute name="DESIGNER" x="145.034" y="11.176" size="2.7432" layer="94" font="vector"/>
-<attribute name="REV" x="210.82" y="6.604" size="2.7432" layer="94" font="vector"/>
+<attribute name="REV" x="213.36" y="6.604" size="2.7432" layer="94" font="vector"/>
 </instance>
 <instance part="FD1" gate="G$1" x="218.44" y="30.48" smashed="yes"/>
 <instance part="FD2" gate="G$1" x="215.9" y="30.48" smashed="yes"/>
@@ -22352,22 +22354,22 @@ Output Current: 3.5A MAX</text>
 <instance part="GND8" gate="1" x="101.6" y="7.62" smashed="yes">
 <attribute name="VALUE" x="101.6" y="7.366" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="SUPPLY8" gate="G$1" x="200.66" y="119.38" smashed="yes">
-<attribute name="VALUE" x="200.66" y="122.174" size="1.778" layer="96" font="vector" align="bottom-center"/>
+<instance part="SUPPLY8" gate="G$1" x="200.66" y="127" smashed="yes">
+<attribute name="VALUE" x="200.66" y="129.794" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
-<instance part="PWR" gate="G$1" x="200.66" y="111.76" smashed="yes" rot="R90">
-<attribute name="NAME" x="197.612" y="111.76" size="1.778" layer="95" font="vector" rot="R90" align="center"/>
+<instance part="PWR" gate="G$1" x="200.66" y="119.38" smashed="yes" rot="R90">
+<attribute name="NAME" x="197.612" y="119.38" size="1.778" layer="95" font="vector" rot="R90" align="center"/>
 </instance>
-<instance part="D1" gate="G$1" x="200.66" y="88.9" smashed="yes">
-<attribute name="NAME" x="197.231" y="84.328" size="1.778" layer="95" font="vector" rot="R90"/>
-<attribute name="VALUE" x="202.565" y="84.328" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
+<instance part="D1" gate="G$1" x="200.66" y="96.52" smashed="yes">
+<attribute name="NAME" x="197.231" y="91.948" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="202.565" y="91.948" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
 </instance>
-<instance part="R5" gate="G$1" x="200.66" y="99.06" smashed="yes" rot="R90">
-<attribute name="NAME" x="199.136" y="99.06" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="202.184" y="99.06" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+<instance part="R5" gate="G$1" x="200.66" y="106.68" smashed="yes" rot="R90">
+<attribute name="NAME" x="199.136" y="106.68" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="202.184" y="106.68" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
-<instance part="GND9" gate="1" x="200.66" y="78.74" smashed="yes">
-<attribute name="VALUE" x="200.66" y="78.486" size="1.778" layer="96" font="vector" align="top-center"/>
+<instance part="GND9" gate="1" x="200.66" y="86.36" smashed="yes">
+<attribute name="VALUE" x="200.66" y="86.106" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
 <instance part="LOGO1" gate="G$1" x="203.2" y="50.8" smashed="yes"/>
 <instance part="LOGO2" gate="G$1" x="129.54" y="38.1" smashed="yes"/>
@@ -22481,7 +22483,7 @@ Output Current: 3.5A MAX</text>
 </segment>
 <segment>
 <pinref part="GND9" gate="1" pin="GND"/>
-<wire x1="200.66" y1="83.82" x2="200.66" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="91.44" x2="200.66" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="D1" gate="G$1" pin="C"/>
 </segment>
 <segment>
@@ -22509,7 +22511,8 @@ Output Current: 3.5A MAX</text>
 <pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="43.18" y1="96.52" x2="43.18" y2="99.06" width="0.1524" layer="91"/>
 <junction x="43.18" y="99.06"/>
-<label x="43.18" y="99.06" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="40.64" y="99.06" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="40.64" y1="99.06" x2="43.18" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="58.42" y1="10.16" x2="63.5" y2="10.16" width="0.1524" layer="91"/>
@@ -22583,7 +22586,7 @@ Output Current: 3.5A MAX</text>
 </segment>
 <segment>
 <pinref part="SUPPLY8" gate="G$1" pin="5V"/>
-<wire x1="200.66" y1="116.84" x2="200.66" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="124.46" x2="200.66" y2="127" width="0.1524" layer="91"/>
 <pinref part="PWR" gate="G$1" pin="2"/>
 </segment>
 <segment>
@@ -22597,14 +22600,14 @@ Output Current: 3.5A MAX</text>
 <segment>
 <pinref part="D1" gate="G$1" pin="A"/>
 <pinref part="R5" gate="G$1" pin="1"/>
-<wire x1="200.66" y1="91.44" x2="200.66" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="99.06" x2="200.66" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$5" class="0">
 <segment>
 <pinref part="R5" gate="G$1" pin="2"/>
 <pinref part="PWR" gate="G$1" pin="1"/>
-<wire x1="200.66" y1="104.14" x2="200.66" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="111.76" x2="200.66" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

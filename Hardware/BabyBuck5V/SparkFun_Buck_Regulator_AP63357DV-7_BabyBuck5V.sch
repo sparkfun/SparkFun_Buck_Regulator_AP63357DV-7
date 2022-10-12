@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -20338,17 +20338,17 @@ Part Number: HA-522</description>
 <wire x1="147.32" y1="0" x2="147.32" y2="144.78" width="0.381" layer="94"/>
 <wire x1="147.32" y1="144.78" x2="0" y2="144.78" width="0.381" layer="94"/>
 <wire x1="0" y1="144.78" x2="0" y2="0" width="0.381" layer="94"/>
-<text x="2.54" y="139.7" size="2.54" layer="94" font="vector">AP63357 5V Switching Buck Regulator</text>
+<text x="35.56" y="139.7" size="2.54" layer="94" font="vector" align="center">5V Switching Buck Regulator - AP63357</text>
 <text x="38.1" y="58.42" size="1.778" layer="97" font="vector">Input Range: 6V to 32V
 Output Current: 3.5A MAX</text>
-<text x="2.54" y="30.48" size="2.54" layer="94" font="vector">Connector</text>
+<text x="10.16" y="30.48" size="2.54" layer="94" font="vector" align="center">Connector</text>
 <wire x1="45.72" y1="35.56" x2="0" y2="35.56" width="0.2032" layer="97" style="longdash"/>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$2" x="45.72" y="0" smashed="yes">
 <attribute name="LAST_DATE_TIME" x="58.42" y="1.27" size="2.54" layer="94" font="vector"/>
 <attribute name="SHEET" x="132.08" y="1.27" size="2.54" layer="94" font="vector"/>
-<attribute name="DRAWING_NAME" x="61.214" y="17.78" size="2.7432" layer="94" font="vector"/>
+<attribute name="DRAWING_NAME" x="58.674" y="17.78" size="2.7432" layer="94" font="vector"/>
 <attribute name="DESIGNER" x="68.834" y="11.176" size="2.7432" layer="94" font="vector"/>
 <attribute name="REV" x="134.62" y="6.604" size="2.7432" layer="94" font="vector"/>
 </instance>
@@ -20536,7 +20536,8 @@ Output Current: 3.5A MAX</text>
 <pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="35.56" y1="101.6" x2="35.56" y2="104.14" width="0.1524" layer="91"/>
 <junction x="35.56" y="104.14"/>
-<label x="35.56" y="104.14" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="33.02" y="104.14" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="35.56" y1="104.14" x2="33.02" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="22.86" y1="10.16" x2="17.78" y2="10.16" width="0.1524" layer="91"/>
