@@ -1449,7 +1449,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="0" y="2.413" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="0" y="-2.286" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 </package>
-<package name="POWER_JACK_PTH_SLOT">
+<package name="POWER_JACK_PTH_SLOT_NO_OVRHNG_SILK">
 <description>&lt;h3&gt;DC Barrel Power Jack/Connector PTH&lt;/h3&gt;
 5.5mm jack, 2.1mm center pole diameter
 &lt;p&gt;Specifications:
@@ -1460,14 +1460,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 &lt;ul&gt;&lt;li&gt;POWER_JACK&lt;/li&gt;
 &lt;/ul&gt;&lt;/p&gt;</description>
 <wire x1="-5.7" y1="4.5" x2="-5.7" y2="2.7" width="0.2032" layer="21"/>
-<wire x1="5" y1="-4.5" x2="7.7" y2="-4.5" width="0.2032" layer="51"/>
-<wire x1="7.7" y1="4.5" x2="5" y2="4.5" width="0.2032" layer="51"/>
+<wire x1="0.5296" y1="-4.5" x2="7.7" y2="-4.5" width="0.2032" layer="51"/>
+<wire x1="7.7" y1="4.5" x2="0.5296" y2="4.5" width="0.2032" layer="51"/>
 <wire x1="7.7" y1="4.5" x2="7.7" y2="-4.5" width="0.2032" layer="51"/>
-<wire x1="5" y1="4.5" x2="-0.3" y2="4.5" width="0.2032" layer="21"/>
 <wire x1="-5.7" y1="4.5" x2="-5.6" y2="4.5" width="0.2032" layer="21"/>
-<wire x1="5" y1="-4.5" x2="-5.7" y2="-4.5" width="0.2032" layer="21"/>
 <wire x1="-5.7" y1="-4.5" x2="-5.7" y2="-2.8" width="0.2032" layer="21"/>
-<wire x1="5" y1="-4.5" x2="5" y2="4.5" width="0.2032" layer="21"/>
 <text x="-4.3" y="-3.1" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="-4.4" y="-4" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 <polygon width="0.01" layer="46">
@@ -5719,9 +5716,8 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="PROD_ID" value="CONN-14485" x="15.113" y="17.78" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="1.397" y="17.78" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
-<element name="J3" library="SparkFun-Connectors" package="POWER_JACK_PTH_SLOT" value="POWER_JACK" x="13.716" y="23.876" smashed="yes" rot="R90">
+<element name="J3" library="SparkFun-Connectors" package="POWER_JACK_PTH_SLOT_NO_OVRHNG_SILK" value="POWER_JACK" x="13.716" y="23.876" smashed="yes" rot="R90">
 <attribute name="NAME" x="15.546" y="19.703" size="0.6096" layer="25" font="vector" ratio="20" rot="R90"/>
-<attribute name="PROD_ID" value="CONN-08197" x="22.606" y="23.876" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="16.573" y="19.603" size="0.6096" layer="27" font="vector" ratio="20" rot="R90"/>
 </element>
 <element name="J2" library="SparkFun-Connectors" package="1X05_NO_SILK" value="" x="24.13" y="17.78" smashed="yes" rot="R270">
@@ -6192,6 +6188,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <approved hash="19,1,29382c084c6c495c"/>
 <approved hash="19,1,1b48fa240caff22b"/>
 <approved hash="19,16,28d92cb8f8b8c4d9"/>
+<approved hash="19,16,f72006a016a116e0"/>
 </errors>
 </board>
 </drawing>
