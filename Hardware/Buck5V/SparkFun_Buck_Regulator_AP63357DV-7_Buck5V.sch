@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -21043,7 +21043,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="AP63357" prefix="U">
+<deviceset name="AP63357" prefix="U" uservalue="yes">
 <description>The AP63356/AP63357 is a 3.5A, synchronous buck converter with a
 wide input voltage range of 3.8V to 32V. The device fully integrates a
 74mΩ high-side power MOSFET and a 40mΩ low-side power
@@ -21065,14 +21065,15 @@ MOSFET to provide high-efficiency step-down DC-DC conversion.</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="VREG-"/>
+<attribute name="PN" value="AP63357DV-7"/>
+<attribute name="PROD_ID" value="VREG-17224"/>
 <attribute name="VALUE" value="AP63357"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="6.8UH" prefix="L">
+<deviceset name="6.8UH" prefix="L" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="INDUCTOR" x="0" y="0"/>
 </gates>
@@ -21084,14 +21085,15 @@ MOSFET to provide high-efficiency step-down DC-DC conversion.</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="NDUC-"/>
+<attribute name="PN" value="LMLP07A7M6R8DTAS"/>
+<attribute name="PROD_ID" value="NDUC-17223"/>
 <attribute name="VALUE" value="6.8UH"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="28.7KOHM" prefix="R">
+<deviceset name="28.7KOHM" prefix="R" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
 </gates>
@@ -21103,14 +21105,15 @@ MOSFET to provide high-efficiency step-down DC-DC conversion.</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="RES-"/>
+<attribute name="PN" value="RT0402FRE0728K7L"/>
+<attribute name="PROD_ID" value="RES-17225"/>
 <attribute name="VALUE" value="28.7k"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="93.1KOHM" prefix="R">
+<deviceset name="93.1KOHM" prefix="R" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
 </gates>
@@ -21122,7 +21125,8 @@ MOSFET to provide high-efficiency step-down DC-DC conversion.</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="RES-"/>
+<attribute name="PN" value="RC0402FR-0793K1L"/>
+<attribute name="PROD_ID" value="RES-17226"/>
 <attribute name="VALUE" value="93.1k"/>
 </technology>
 </technologies>

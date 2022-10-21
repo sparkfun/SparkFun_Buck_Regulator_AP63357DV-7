@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mil" altunit="mil"/>
@@ -2423,7 +2423,8 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="VALUE" x="12.446" y="12.7" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
 <element name="L1" library="Buck5V" package="07A7_6U8H" value="6.8UH" x="6.731" y="3.81" smashed="yes">
-<attribute name="PROD_ID" value="NDUC-" x="24.511" y="-8.89" size="1.778" layer="27" display="off"/>
+<attribute name="PN" value="LMLP07A7M6R8DTAS" x="6.731" y="3.81" size="1.778" layer="27" display="off"/>
+<attribute name="PROD_ID" value="NDUC-17223" x="24.511" y="-8.89" size="1.778" layer="27" display="off"/>
 </element>
 <element name="LOGO2" library="SparkFun-Aesthetics" package="OSHW-LOGO-MINI" value="OSHW-LOGOMINI" x="1.524" y="2.032" smashed="yes" rot="R180"/>
 <element name="LOGO1" library="SparkFun-Aesthetics" package="BLANK" value="SFE_LOGO_NAME_FLAMEBLANK" x="14.859" y="0.254" smashed="yes"/>
@@ -2435,12 +2436,14 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 </element>
 <element name="R2" library="Buck5V" package="0402-TIGHT" value="28.7k" x="1.905" y="9.652" smashed="yes" rot="R270">
 <attribute name="NAME" x="2.467" y="9.652" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-" x="-15.875" y="-24.638" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PN" value="RT0402FRE0728K7L" x="1.905" y="9.652" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PROD_ID" value="RES-17225" x="-15.875" y="-24.638" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="1.343" y="9.652" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
 <element name="R3" library="Buck5V" package="0402-TIGHT" value="93.1k" x="5.461" y="11.43" smashed="yes">
 <attribute name="NAME" x="5.461" y="11.992" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-" x="43.561" y="-6.35" size="1.778" layer="27" display="off"/>
+<attribute name="PN" value="RC0402FR-0793K1L" x="5.461" y="11.43" size="1.778" layer="27" display="off"/>
+<attribute name="PROD_ID" value="RES-17226" x="43.561" y="-6.35" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="5.461" y="10.868" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="R4" library="SparkFun-Resistors" package="0402-TIGHT" value="22k" x="3.429" y="11.43" smashed="yes">
@@ -2449,7 +2452,8 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="VALUE" x="3.429" y="10.868" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="U1" library="Buck5V" package="V-DFN3020-13" value="AP63357" x="4.318" y="9.144" smashed="yes" rot="R180">
-<attribute name="PROD_ID" value="VREG-" x="-26.162" y="28.194" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PN" value="AP63357DV-7" x="4.318" y="9.144" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PROD_ID" value="VREG-17224" x="-26.162" y="28.194" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="U$1" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_COPPER_EXPOSED_.1" value="" x="1.27" y="11.684" smashed="yes" rot="R180"/>
 <element name="U$8" library="SparkFun-Aesthetics" package="HIGH_TEMP_WARNING" value="" x="11.176" y="11.176" smashed="yes" rot="R180"/>

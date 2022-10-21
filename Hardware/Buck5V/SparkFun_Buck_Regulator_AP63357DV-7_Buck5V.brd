@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mil" altunit="mil"/>
@@ -5726,11 +5726,13 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 </element>
 <element name="R2" library="Buck5V" package="0402-TIGHT" value="28.7k" x="9.1313" y="14.097" smashed="yes" rot="R180">
 <attribute name="NAME" x="9.1313" y="13.335" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-" x="9.1313" y="14.097" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PN" value="RT0402FRE0728K7L" x="9.1313" y="14.097" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PROD_ID" value="RES-17225" x="9.1313" y="14.097" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" value="28.7k" x="9.1313" y="14.859" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
 <element name="U1" library="Buck5V" package="V-DFN3020-13" value="AP63357" x="12.319" y="13.208" smashed="yes" rot="R180">
-<attribute name="PROD_ID" value="VREG-" x="12.319" y="13.208" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PN" value="AP63357DV-7" x="12.319" y="13.208" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PROD_ID" value="VREG-17224" x="12.319" y="13.208" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R1" library="SparkFun-Resistors" package="0402-TIGHT" value="150k" x="9.779" y="12.5222" smashed="yes" rot="R270">
 <attribute name="NAME" x="10.541" y="12.5222" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
@@ -5743,7 +5745,8 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="VALUE" x="9.144" y="12.5222" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
 <element name="L1" library="Buck5V" package="07A7_6U8H" value="6.8UH" x="11.938" y="6.477" smashed="yes" rot="R270">
-<attribute name="PROD_ID" value="NDUC-" x="11.938" y="6.477" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PN" value="LMLP07A7M6R8DTAS" x="11.938" y="6.477" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PROD_ID" value="NDUC-17223" x="11.938" y="6.477" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C2" library="SparkFun-Capacitors" package="0402-TIGHT" value="0.1uF" x="11.43" y="11.176" smashed="yes">
 <attribute name="NAME" x="11.43" y="11.938" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
@@ -5752,7 +5755,8 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 </element>
 <element name="R3" library="Buck5V" package="0402-TIGHT" value="93.1k" x="12.065" y="15.494" smashed="yes">
 <attribute name="NAME" x="12.065" y="16.256" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-" x="12.065" y="15.494" size="1.778" layer="27" display="off"/>
+<attribute name="PN" value="RC0402FR-0793K1L" x="12.065" y="15.494" size="1.778" layer="27" display="off"/>
+<attribute name="PROD_ID" value="RES-17226" x="12.065" y="15.494" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="12.065" y="14.732" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="R4" library="SparkFun-Resistors" package="0402-TIGHT" value="22k" x="9.906" y="15.494" smashed="yes">
