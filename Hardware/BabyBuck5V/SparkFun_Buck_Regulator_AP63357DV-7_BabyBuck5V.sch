@@ -20333,7 +20333,7 @@ Part Number: HA-522</description>
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_NAME_FLAME" device="BLANK" value="SFE_LOGO_NAME_FLAMEBLANK"/>
 <part name="C5" library="SparkFun-Capacitors" deviceset="4.7UF" device="-0805-50V-(10%)" value="4.7uF"/>
 <part name="GND10" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="J1" library="SparkFun-Connectors" deviceset="CONN_04" device="1X04_NO_SILK"/>
+<part name="J1" library="SparkFun-Connectors" deviceset="CONN_04" device="1X04_NO_SILK_NO_POP"/>
 </parts>
 <sheets>
 <sheet>
