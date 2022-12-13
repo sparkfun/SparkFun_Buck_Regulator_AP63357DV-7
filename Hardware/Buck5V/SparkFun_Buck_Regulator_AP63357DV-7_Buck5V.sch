@@ -20030,6 +20030,107 @@ Holes are offset 0.005" from center, locking pins in place during soldering.
 <pad name="GNDBREAK" x="-3.048" y="4.699" drill="1" diameter="2" shape="long" rot="R180"/>
 <pad name="PWR" x="-5.969" y="0" drill="1" diameter="2.3" shape="long" rot="R90"/>
 </package>
+<package name="1X04_SMD_VERTICAL_COMBO_CENTERED">
+<description>&lt;h3&gt;SMD - 4 Pin Vertical Connector&lt;/h3&gt;
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count:4&lt;/li&gt;
+&lt;li&gt;SMD Pad count:8&lt;/li&gt;
+&lt;li&gt;Pin pitch:0.1"&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;CONN_04&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<wire x1="-5.18" y1="-1.25" x2="-5.18" y2="1.25" width="0.1778" layer="21"/>
+<wire x1="5.18" y1="1.25" x2="5.18" y2="-1.25" width="0.1778" layer="21"/>
+<wire x1="-4.54" y1="-1.25" x2="-5.18" y2="-1.25" width="0.1778" layer="21"/>
+<wire x1="5.18" y1="-1.25" x2="4.51" y2="-1.25" width="0.1778" layer="21"/>
+<wire x1="4.51" y1="1.25" x2="5.18" y2="1.25" width="0.1778" layer="21"/>
+<wire x1="-5.18" y1="1.25" x2="-4.54" y2="1.25" width="0.1778" layer="21"/>
+<wire x1="2.059" y1="-1.29" x2="3.021" y2="-1.29" width="0.1778" layer="21"/>
+<wire x1="2.059" y1="1.25" x2="3.021" y2="1.25" width="0.1778" layer="21"/>
+<wire x1="-0.481" y1="-1.29" x2="0.481" y2="-1.29" width="0.1778" layer="21"/>
+<wire x1="-0.481" y1="1.25" x2="0.481" y2="1.25" width="0.1778" layer="21"/>
+<wire x1="-3.021" y1="-1.29" x2="-2.059" y2="-1.29" width="0.1778" layer="21"/>
+<wire x1="-3.021" y1="1.25" x2="-2.059" y2="1.25" width="0.1778" layer="21"/>
+<smd name="1" x="-3.81" y="1.65" dx="2" dy="1" layer="1" rot="R90" stop="no"/>
+<smd name="3" x="1.27" y="1.65" dx="2" dy="1" layer="1" rot="R90" stop="no" cream="no"/>
+<smd name="4" x="3.81" y="1.652" dx="2" dy="1" layer="1" rot="R90" stop="no" cream="no"/>
+<text x="-4.191" y="2.858" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-4.318" y="-3.616" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
+<polygon width="0.01" layer="1">
+<vertex x="-1.77" y="2.65"/>
+<vertex x="-0.77" y="2.65"/>
+<vertex x="-0.77" y="0.65"/>
+<vertex x="-1.07" y="0.65"/>
+<vertex x="-1.07" y="-0.65"/>
+<vertex x="-0.77" y="-0.65"/>
+<vertex x="-0.77" y="-2.65"/>
+<vertex x="-1.77" y="-2.65"/>
+<vertex x="-1.77" y="-0.65"/>
+<vertex x="-1.47" y="-0.65"/>
+<vertex x="-1.47" y="0.65"/>
+<vertex x="-1.77" y="0.65"/>
+</polygon>
+<rectangle x1="-1.89" y1="-2.76" x2="-0.69" y2="-0.56" layer="29" rot="R180"/>
+<rectangle x1="-1.89" y1="-2.76" x2="-0.69" y2="-0.56" layer="31" rot="R180"/>
+<rectangle x1="-1.87" y1="0.54" x2="-0.67" y2="2.74" layer="29" rot="R180"/>
+<rectangle x1="-1.87" y1="0.54" x2="-0.67" y2="2.74" layer="31" rot="R180"/>
+<polygon width="0.01" layer="1">
+<vertex x="-4.31" y="2.65"/>
+<vertex x="-3.31" y="2.65"/>
+<vertex x="-3.31" y="0.65"/>
+<vertex x="-3.61" y="0.65"/>
+<vertex x="-3.61" y="-0.65"/>
+<vertex x="-3.31" y="-0.65"/>
+<vertex x="-3.31" y="-2.65"/>
+<vertex x="-4.31" y="-2.65"/>
+<vertex x="-4.31" y="-0.65"/>
+<vertex x="-4.01" y="-0.65"/>
+<vertex x="-4.01" y="0.65"/>
+<vertex x="-4.31" y="0.65"/>
+</polygon>
+<rectangle x1="-4.43" y1="-2.76" x2="-3.23" y2="-0.56" layer="29" rot="R180"/>
+<rectangle x1="-4.43" y1="-2.76" x2="-3.23" y2="-0.56" layer="31" rot="R180"/>
+<rectangle x1="-4.41" y1="0.54" x2="-3.21" y2="2.74" layer="29" rot="R180"/>
+<rectangle x1="-4.41" y1="0.54" x2="-3.21" y2="2.74" layer="31" rot="R180"/>
+<polygon width="0.01" layer="1">
+<vertex x="0.78" y="2.65"/>
+<vertex x="1.78" y="2.65"/>
+<vertex x="1.78" y="0.65"/>
+<vertex x="1.48" y="0.65"/>
+<vertex x="1.48" y="-0.65"/>
+<vertex x="1.78" y="-0.65"/>
+<vertex x="1.78" y="-2.65"/>
+<vertex x="0.78" y="-2.65"/>
+<vertex x="0.78" y="-0.65"/>
+<vertex x="1.08" y="-0.65"/>
+<vertex x="1.08" y="0.65"/>
+<vertex x="0.78" y="0.65"/>
+</polygon>
+<rectangle x1="0.66" y1="-2.76" x2="1.86" y2="-0.56" layer="29" rot="R180"/>
+<rectangle x1="0.66" y1="-2.76" x2="1.86" y2="-0.56" layer="31" rot="R180"/>
+<rectangle x1="0.68" y1="0.54" x2="1.88" y2="2.74" layer="29" rot="R180"/>
+<rectangle x1="0.68" y1="0.54" x2="1.88" y2="2.74" layer="31" rot="R180"/>
+<polygon width="0.01" layer="1">
+<vertex x="3.31" y="2.65"/>
+<vertex x="4.31" y="2.65"/>
+<vertex x="4.31" y="0.65"/>
+<vertex x="4.01" y="0.65"/>
+<vertex x="4.01" y="-0.65"/>
+<vertex x="4.31" y="-0.65"/>
+<vertex x="4.31" y="-2.65"/>
+<vertex x="3.31" y="-2.65"/>
+<vertex x="3.31" y="-0.65"/>
+<vertex x="3.61" y="-0.65"/>
+<vertex x="3.61" y="0.65"/>
+<vertex x="3.31" y="0.65"/>
+</polygon>
+<rectangle x1="3.19" y1="-2.76" x2="4.39" y2="-0.56" layer="29" rot="R180"/>
+<rectangle x1="3.19" y1="-2.76" x2="4.39" y2="-0.56" layer="31" rot="R180"/>
+<rectangle x1="3.21" y1="0.54" x2="4.41" y2="2.74" layer="29" rot="R180"/>
+<rectangle x1="3.21" y1="0.54" x2="4.41" y2="2.74" layer="31" rot="R180"/>
+<smd name="2" x="-1.27" y="1.65" dx="2" dy="1" layer="1" rot="R90" stop="no"/>
+</package>
 </packages>
 <symbols>
 <symbol name="CONN_04">
@@ -20414,6 +20515,19 @@ Holes are offset 0.005" from center, locking pins in place during soldering.
 <technologies>
 <technology name="">
 <attribute name="PROD_ID" value="CONN-15303" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="SMD_VERTICAL_MALE" package="1X04_SMD_VERTICAL_COMBO_CENTERED">
+<connects>
+<connect gate="J1" pin="1" pad="1"/>
+<connect gate="J1" pin="2" pad="2"/>
+<connect gate="J1" pin="3" pad="3"/>
+<connect gate="J1" pin="4" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CONN-17242" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -20951,11 +21065,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-1.5" y1="-1.05" x2="1.5" y2="-1.05" width="0.1" layer="51"/>
 <wire x1="1.5" y1="-1.05" x2="1.5" y2="1.05" width="0.1" layer="51"/>
 <wire x1="1.5" y1="1.05" x2="-1.5" y2="1.05" width="0.1" layer="51"/>
-<wire x1="-0.9" y1="1.3" x2="-1.7" y2="1.3" width="0.2" layer="21"/>
-<wire x1="-1.7" y1="1.3" x2="-1.7" y2="0.8" width="0.2" layer="21"/>
-<wire x1="1.7" y1="-0.8" x2="1.7" y2="-1.3" width="0.2" layer="21"/>
-<wire x1="1.7" y1="-1.3" x2="0.9" y2="-1.3" width="0.2" layer="21"/>
-<circle x="-1.143" y="-1.524" radius="0.254" width="0" layer="21"/>
+<wire x1="-1" y1="1.4" x2="-1.8" y2="1.4" width="0.3" layer="21"/>
+<wire x1="-1.8" y1="1.4" x2="-1.8" y2="0.9" width="0.3" layer="21"/>
+<wire x1="1.8" y1="-0.9" x2="1.8" y2="-1.4" width="0.3" layer="21"/>
+<wire x1="1.8" y1="-1.4" x2="1" y2="-1.4" width="0.3" layer="21"/>
+<circle x="-1.8" y="-1.5" radius="0.254" width="0" layer="21"/>
 <rectangle x1="-1.47" y1="-1.2" x2="0.12" y2="-0.3" layer="29"/>
 <rectangle x1="0.18" y1="-1.2" x2="0.57" y2="-0.5" layer="29"/>
 <rectangle x1="0.63" y1="-1.2" x2="1.02" y2="-0.5" layer="29"/>
@@ -22233,7 +22347,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <parts>
 <part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-LEDGER" device="">
 <attribute name="DESIGNER" value="Alex Brudner"/>
-<attribute name="REV" value="v01"/>
+<attribute name="REV" value="v10"/>
 </part>
 <part name="FD1" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
 <part name="FD2" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
