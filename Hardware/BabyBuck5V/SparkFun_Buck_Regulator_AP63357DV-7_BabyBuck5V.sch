@@ -20342,10 +20342,10 @@ Part Number: HA-522</description>
 <wire x1="147.32" y1="0" x2="147.32" y2="144.78" width="0.381" layer="94"/>
 <wire x1="147.32" y1="144.78" x2="0" y2="144.78" width="0.381" layer="94"/>
 <wire x1="0" y1="144.78" x2="0" y2="0" width="0.381" layer="94"/>
-<text x="35.56" y="139.7" size="2.54" layer="94" font="vector" align="center">5V Switching Buck Regulator - AP63357</text>
+<text x="73.66" y="139.7" size="2.54" layer="94" font="vector" align="center">5V Switching Buck Regulator - AP63357</text>
 <text x="38.1" y="58.42" size="1.778" layer="97" font="vector">Input Range: 6V to 32V
 Output Current: 3.5A MAX</text>
-<text x="10.16" y="30.48" size="2.54" layer="94" font="vector" align="center">Connector</text>
+<text x="22.86" y="30.48" size="2.54" layer="94" font="vector" align="center">Connector</text>
 <wire x1="45.72" y1="35.56" x2="0" y2="35.56" width="0.2032" layer="97" style="longdash"/>
 <text x="96.52" y="124.46" size="1.778" layer="97" font="vector" align="center-left">UVLO Hi: 5.6V
 UVLO Lo: 5.18V

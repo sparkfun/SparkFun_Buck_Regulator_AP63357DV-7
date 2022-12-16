@@ -22409,10 +22409,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="121.92" y1="68.58" x2="177.8" y2="68.58" width="0.2032" layer="97" style="longdash"/>
 <wire x1="177.8" y1="68.58" x2="223.52" y2="68.58" width="0.2032" layer="97" style="longdash"/>
 <wire x1="121.92" y1="35.56" x2="0" y2="35.56" width="0.2032" layer="97" style="longdash"/>
-<text x="190.5" y="139.7" size="2.54" layer="94" font="vector" align="center">Power LED</text>
+<text x="200.66" y="139.7" size="2.54" layer="94" font="vector" align="center">Power LED</text>
 <wire x1="177.8" y1="144.78" x2="177.8" y2="68.58" width="0.2032" layer="97" style="longdash"/>
-<text x="12.7" y="30.48" size="2.54" layer="94" font="vector" align="center">Connectors</text>
-<text x="35.56" y="139.7" size="2.54" layer="94" font="vector" align="center">5V Switching Buck Regulator - AP63357</text>
+<text x="60.96" y="30.48" size="2.54" layer="94" font="vector" align="center">Connectors</text>
+<text x="86.36" y="139.7" size="2.54" layer="94" font="vector" align="center">5V Switching Buck Regulator - AP63357</text>
 <text x="45.72" y="53.34" size="1.778" layer="97" font="vector">Input Range: 6V to 32V
 Output Current: 3.5A MAX</text>
 <text x="200.66" y="76.2" size="1.778" layer="97" font="vector" align="center">Cut trace to
