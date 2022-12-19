@@ -5724,20 +5724,15 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="NAME" x="25.527" y="19.05" size="0.6096" layer="25" font="vector" ratio="20" rot="R270"/>
 <attribute name="VALUE" x="22.098" y="19.05" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
-<element name="R2" library="Buck5V" package="0402-TIGHT" value="28.7k" x="9.1313" y="14.097" smashed="yes" rot="R180">
+<element name="R2" library="Buck5V" package="0402-TIGHT" value="41.2K" x="9.1313" y="14.097" smashed="yes" rot="R180">
 <attribute name="NAME" x="9.1313" y="13.335" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
-<attribute name="PN" value="RT0402FRE0728K7L" x="9.1313" y="14.097" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PROD_ID" value="RES-17225" x="9.1313" y="14.097" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" value="28.7k" x="9.1313" y="14.859" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
+<attribute name="PN" value="RC0402FR-0741K2L" x="9.1313" y="14.097" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PROD_ID" value="RES-15010" x="9.1313" y="14.097" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" value="41.2K" x="9.1313" y="14.859" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
 <element name="U1" library="Buck5V" package="V-DFN3020-13" value="AP63357" x="12.319" y="13.208" smashed="yes" rot="R180">
 <attribute name="PN" value="AP63357DV-7" x="12.319" y="13.208" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PROD_ID" value="VREG-17224" x="12.319" y="13.208" size="1.778" layer="27" rot="R180" display="off"/>
-</element>
-<element name="R1" library="SparkFun-Resistors" package="0402-TIGHT" value="150k" x="9.779" y="12.5222" smashed="yes" rot="R270">
-<attribute name="NAME" x="10.541" y="12.5222" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-15093" x="9.779" y="12.5222" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="RES" value="150k" x="9.779" y="12.5222" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C1" library="SparkFun-Capacitors" package="0402-TIGHT" value="47pF" x="8.382" y="12.5222" smashed="yes" rot="R90">
 <attribute name="NAME" x="7.62" y="12.5222" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
@@ -5841,11 +5836,15 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <element name="U$10" library="output" package="#5V#10" value="" x="1.524" y="7.239" smashed="yes" rot="MR270"/>
 <element name="U$11" library="output" package="6V#32V10" value="" x="8.001" y="17.78" smashed="yes" rot="MR180"/>
 <element name="U$12" library="output" package="HOT##0" value="" x="20.955" y="8.001" smashed="yes" rot="R90"/>
+<element name="R1" library="SparkFun-Resistors" package="0402-TIGHT" value="220K" x="9.8298" y="12.5222" smashed="yes" rot="R270">
+<attribute name="NAME" x="10.3918" y="12.5222" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
+<attribute name="PROD_ID" value="RES-15094" x="9.8298" y="12.5222" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="9.2678" y="12.5222" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
+</element>
 </elements>
 <signals>
 <signal name="FB">
 <contactref element="U1" pad="P$3"/>
-<contactref element="R1" pad="1"/>
 <contactref element="R2" pad="2"/>
 <contactref element="C1" pad="2"/>
 <polygon width="0.2032" layer="1" thermals="no" rank="2">
@@ -5864,6 +5863,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <vertex x="11.186159375" y="13.472159375"/>
 <vertex x="11.43" y="13.716"/>
 </polygon>
+<contactref element="R1" pad="1"/>
 </signal>
 <signal name="SW">
 <contactref element="L1" pad="P$1"/>
@@ -6126,7 +6126,6 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 </polygon>
 </signal>
 <signal name="5V">
-<contactref element="R1" pad="2"/>
 <contactref element="C1" pad="1"/>
 <contactref element="L1" pad="P$2"/>
 <contactref element="C4" pad="1"/>
@@ -6158,6 +6157,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <wire x1="5.5753" y1="1.651" x2="5.5753" y2="2.5527" width="0.2032" layer="16"/>
 <wire x1="3.683" y1="4.445" x2="3.683" y2="7.28" width="0.2032" layer="16"/>
 <wire x1="5.5753" y1="2.5527" x2="3.683" y2="4.445" width="0.2032" layer="16"/>
+<contactref element="R1" pad="2"/>
 </signal>
 <signal name="N$2">
 <contactref element="D1" pad="A"/>

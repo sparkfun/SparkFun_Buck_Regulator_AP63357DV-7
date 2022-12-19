@@ -18343,8 +18343,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </device>
 </devices>
 </deviceset>
-<deviceset name="150KOHM" prefix="R">
-<description>&lt;h3&gt;150kΩ resistor&lt;/h3&gt;
+<deviceset name="220KOHM" prefix="R">
+<description>&lt;h3&gt;220kΩ resistor&lt;/h3&gt;
 &lt;p&gt;A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
@@ -18357,8 +18357,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="RES-09117"/>
-<attribute name="VALUE" value="150k"/>
+<attribute name="PROD_ID" value="RES-08969"/>
+<attribute name="VALUE" value="220k"/>
 </technology>
 </technologies>
 </device>
@@ -18369,7 +18369,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="RES-15093" constant="no"/>
+<attribute name="PROD_ID" value="RES-15094" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -18535,21 +18535,21 @@ MOSFET to provide high-efficiency step-down DC-DC conversion.</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="28.7KOHM" prefix="R" uservalue="yes">
+<deviceset name="41.2KOHM" prefix="R" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="-0402-1/16W-1%(28.7KOHM)" package="0402-TIGHT">
+<device name="-0402-1/16W-1%(41.2KOHM)" package="0402-TIGHT">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PN" value="RT0402FRE0728K7L"/>
-<attribute name="PROD_ID" value="RES-17225"/>
-<attribute name="VALUE" value="28.7k"/>
+<attribute name="PN" value="RC0402FR-0741K2L"/>
+<attribute name="PROD_ID" value="RES-15010"/>
+<attribute name="VALUE" value="41.2K"/>
 </technology>
 </technologies>
 </device>
@@ -20306,10 +20306,10 @@ Part Number: HA-522</description>
 <part name="FD1" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
 <part name="FD2" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
 <part name="FD4" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
-<part name="R2" library="Buck5V" deviceset="28.7KOHM" device="-0402-1/16W-1%(28.7KOHM)" value="28.7k"/>
+<part name="R2" library="Buck5V" deviceset="41.2KOHM" device="-0402-1/16W-1%(41.2KOHM)" value="41.2K"/>
 <part name="U1" library="Buck5V" deviceset="AP63357" device="" value="AP63357"/>
-<part name="R1" library="SparkFun-Resistors" deviceset="150KOHM" device="-0402T-1/16W-1%" value="150k">
-<attribute name="RES" value="150k"/>
+<part name="R1" library="SparkFun-Resistors" deviceset="220KOHM" device="-0402T-1/16W-1%" value="220K">
+<attribute name="RES" value="220K"/>
 </part>
 <part name="C1" library="SparkFun-Capacitors" deviceset="47PF" device="-0402_TIGHT-25V-5%-X7R" value="47pF"/>
 <part name="L1" library="Buck5V" deviceset="6.8UH" device="" value="6.8UH"/>

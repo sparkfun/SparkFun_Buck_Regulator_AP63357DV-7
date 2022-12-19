@@ -21015,8 +21015,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </device>
 </devices>
 </deviceset>
-<deviceset name="150KOHM" prefix="R">
-<description>&lt;h3&gt;150kΩ resistor&lt;/h3&gt;
+<deviceset name="220KOHM" prefix="R">
+<description>&lt;h3&gt;220kΩ resistor&lt;/h3&gt;
 &lt;p&gt;A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
@@ -21029,8 +21029,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="RES-09117"/>
-<attribute name="VALUE" value="150k"/>
+<attribute name="PROD_ID" value="RES-08969"/>
+<attribute name="VALUE" value="220k"/>
 </technology>
 </technologies>
 </device>
@@ -21041,7 +21041,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="RES-15093" constant="no"/>
+<attribute name="PROD_ID" value="RES-15094" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -21207,21 +21207,21 @@ MOSFET to provide high-efficiency step-down DC-DC conversion.</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="28.7KOHM" prefix="R" uservalue="yes">
+<deviceset name="41.2KOHM" prefix="R" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="-0402-1/16W-1%(28.7KOHM)" package="0402-TIGHT">
+<device name="-0402-1/16W-1%(41.2KOHM)" package="0402-TIGHT">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PN" value="RT0402FRE0728K7L"/>
-<attribute name="PROD_ID" value="RES-17225"/>
-<attribute name="VALUE" value="28.7k"/>
+<attribute name="PN" value="RC0402FR-0741K2L"/>
+<attribute name="PROD_ID" value="RES-15010"/>
+<attribute name="VALUE" value="41.2K"/>
 </technology>
 </technologies>
 </device>
@@ -22356,11 +22356,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="J1" library="SparkFun-Connectors" deviceset="CONN_04" device="SCREW"/>
 <part name="J3" library="SparkFun-Connectors" deviceset="POWER_JACK" device="POWER_JACK_SLOT_NO_SILK_OVRHNG" value="POWER_JACK"/>
 <part name="J2" library="SparkFun-Connectors" deviceset="CONN_05" device="NO_SILK"/>
-<part name="R2" library="Buck5V" deviceset="28.7KOHM" device="-0402-1/16W-1%(28.7KOHM)" value="28.7k"/>
+<part name="R2" library="Buck5V" deviceset="41.2KOHM" device="-0402-1/16W-1%(41.2KOHM)" value="41.2K"/>
 <part name="U1" library="Buck5V" deviceset="AP63357" device="" value="AP63357"/>
-<part name="R1" library="SparkFun-Resistors" deviceset="150KOHM" device="-0402T-1/16W-1%" value="150k">
-<attribute name="RES" value="150k"/>
-</part>
 <part name="C1" library="SparkFun-Capacitors" deviceset="47PF" device="-0402_TIGHT-25V-5%-X7R" value="47pF"/>
 <part name="L1" library="Buck5V" deviceset="6.8UH" device="" value="6.8UH"/>
 <part name="C2" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0402T-16V-10%" value="0.1uF"/>
@@ -22397,6 +22394,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SUPPLY6" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="C6" library="SparkFun-Capacitors" deviceset="4.7UF" device="-0805-50V-(10%)" value="4.7uF"/>
 <part name="GND10" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="R1" library="SparkFun-Resistors" deviceset="220KOHM" device="-0402T-1/16W-1%" value="220K"/>
 </parts>
 <sheets>
 <sheet>
@@ -22453,10 +22451,6 @@ For calculating R3/R4</text>
 <instance part="U1" gate="G$1" x="60.96" y="96.52" smashed="yes">
 <attribute name="NAME" x="48.26" y="121.92" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="48.26" y="66.04" size="1.778" layer="96" font="vector"/>
-</instance>
-<instance part="R1" gate="G$1" x="106.68" y="91.44" smashed="yes" rot="R90">
-<attribute name="NAME" x="105.156" y="91.44" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="RES" x="109.22" y="91.44" size="1.778" layer="96" font="vector" rot="R90" align="center"/>
 </instance>
 <instance part="C1" gate="G$1" x="93.98" y="91.44" smashed="yes">
 <attribute name="NAME" x="95.504" y="94.361" size="1.778" layer="95" font="vector"/>
@@ -22565,6 +22559,10 @@ For calculating R3/R4</text>
 <instance part="GND10" gate="1" x="22.86" y="99.06" smashed="yes">
 <attribute name="VALUE" x="22.86" y="98.806" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
+<instance part="R1" gate="G$1" x="106.68" y="91.44" smashed="yes" rot="R90">
+<attribute name="NAME" x="105.156" y="91.44" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="108.204" y="91.44" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -22572,7 +22570,6 @@ For calculating R3/R4</text>
 <net name="FB" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="FB"/>
-<pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="76.2" y1="83.82" x2="93.98" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="83.82" x2="106.68" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="83.82" x2="106.68" y2="86.36" width="0.1524" layer="91"/>
@@ -22582,6 +22579,7 @@ For calculating R3/R4</text>
 <pinref part="C1" gate="G$1" pin="2"/>
 <wire x1="93.98" y1="88.9" x2="93.98" y2="83.82" width="0.1524" layer="91"/>
 <junction x="93.98" y="83.82"/>
+<pinref part="R1" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="SW" class="0">
@@ -22730,7 +22728,6 @@ For calculating R3/R4</text>
 </net>
 <net name="5V" class="0">
 <segment>
-<pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="106.68" y1="96.52" x2="106.68" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="99.06" x2="93.98" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="1"/>
@@ -22749,6 +22746,7 @@ For calculating R3/R4</text>
 <pinref part="SUPPLY2" gate="G$1" pin="5V"/>
 <wire x1="127" y1="99.06" x2="127" y2="101.6" width="0.1524" layer="91"/>
 <junction x="127" y="99.06"/>
+<pinref part="R1" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <wire x1="27.94" y1="17.78" x2="27.94" y2="20.32" width="0.1524" layer="91"/>
