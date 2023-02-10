@@ -244,12 +244,13 @@
   }
 }
 
+
 /* ================================================================================== */
 /* YoutTube Videos                                                                    */
 /* ================================================================================== */
 
 /* Auto adjust embedded youtube videos size */
-/* height: .5625 * width */
+/* height: 47vw * (viewport/element) percentage */
 .video {
   position: relative;
   width: 100%;
@@ -257,9 +258,9 @@
 .video iframe {
   position: relative;
   top: 0;
-  width: 60vh;
+  width: 90vh;
   min-width: 200px;
-  height: calc(.5625 * 60vh);
+  height: 16.45vw;
   min-height: 113px;
   border: 0;
   overflow: hidden;
@@ -293,11 +294,13 @@
   * + .pdf {
     display: contents;
   }
+
   /* Limits images size in table */
   .pdf img {
     width: 100%;
     max-width: 200px;
   }
+
   .md-typeset ul.pdf {
     display: flow-root;
   }
@@ -329,6 +332,8 @@
   /* Display grid cards with board files */
   .md-typeset .grid.grid.cards.show {
 	  display: block;
+  .md-typeset .grid.grid.cards.desc {
+	  display: none;
   }
 
 
