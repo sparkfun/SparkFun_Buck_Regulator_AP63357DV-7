@@ -95,7 +95,7 @@ plugins:
   - with-pdf:
       cover_subtitle: none
       cover_logo: img/sfe_logo_sm.png
-      exclude_pages: [ "hardcopy", "github/file_issue", "github/contribute" ]
+      exclude_pages: [ "hard_copy", "github/file_issue", "github/contribute" ]
       output_path: board_files/hookup_guide.pdf
       # debug_html: true
 
@@ -176,9 +176,7 @@ nav:
     - Hardware Overview: hardware_overview.md
     - Hardware Assembly: hardware_assembly.md
     - Load Test: load_test.md
-  - Reference:
-    - Resources: resources.md
-    - Hardcopies: hardcopy.md
+  - Resources: resources.md
   - Support:
     - Troubleshooting Tips: troubleshooting_tips.md
     - Sumbit Issues: github/file_issue.md
