@@ -341,7 +341,7 @@ Thermal characteristics for the [5V Baby Buck Regulator](https://www.sparkfun.co
 		* With a heat sink, we have found users can expect to draw up to 2.5A
 		* While the IC is rated up to 3.5A, users may experience thermal limitations towards that maximum.
 			* Users should reasonably expect to be able to place a maximum 3A load on the boards when using a heat sink and active cooling (i.e. fan). 
-			* At the peak load of 3.5A, users will need sufficient cooling to prevent the IC's [thermal shutdown](#thermal-characteristics "The AP63357 has a 170&deg;C (338&deg;F) thermal shutdown temperature.")
+			* At the peak load of 3.5A, users will need sufficient cooling to prevent the IC's [thermal shutdown](#thermal-characteristics "The AP63357 has a 170&deg;C (338&deg;F) thermal shutdown temperature.").
 
 
 ## Jumper
