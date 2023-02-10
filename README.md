@@ -3,7 +3,7 @@ SparkFun 5V Buck Regulator Breakouts - AP63357
 
 <p align="center">
   <a href="https://github.com/sparkfun/SparkFun_Buck_Regulator_AP63357DV-7/issues" alt="Issues">
-    <img src="https://img.shields.io/github/issues/sparkfun/SparkFun_Thing_Plus_ESP32_WROOM_C.svg" /></a>
+    <img src="https://img.shields.io/github/issues/sparkfun/SparkFun_Buck_Regulator_AP63357DV-7.svg" /></a>
   <a href="https://github.com/sparkfun/SparkFun_Buck_Regulator_AP63357DV-7/actions" alt="Actions">
     <img src="https://github.com/sparkfun/SparkFun_Buck_Regulator_AP63357DV-7/actions/workflows/mkdocs.yml/badge.svg" /></a>
   <a href="https://github.com/sparkfun/SparkFun_Buck_Regulator_AP63357DV-7/blob/main/LICENSE.md" alt="License">

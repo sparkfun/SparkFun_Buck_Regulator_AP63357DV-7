@@ -11,6 +11,8 @@ copyright:
   Copyright&#169; 2023 - SparkFun Electronics<br>
   6333 Dry Creek Parkway, Niwot, Colorado 80503
 
+# Default edit/view actions to "main" branch, instead of "master"
+edit_uri: blob/main/docs/
 
 # Configuration for webpage theme
 theme:
@@ -138,7 +140,7 @@ plugins:
       type: timeago
   # Add git commiters at bottom of the page
   - git-committers:
-      repository: sparkfun/SparkFun_Thing_Plus_ESP32_WROOM_C
+      repository: sparkfun/SparkFun_Buck_Regulator_AP63357DV-7
       branch: docs-test
   # Add git autors at bottom of the page
   - git-authors
