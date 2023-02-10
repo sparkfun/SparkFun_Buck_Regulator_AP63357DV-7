@@ -5,7 +5,7 @@ hide:
 icon: fontawesome/solid/scroll
 ---
 
---8<-- "./docs/introduction.md"
+--8<-- "./docs/index.md"
 
 # Hardware Overview
 --8<-- "./docs/hardware_overview.md"
