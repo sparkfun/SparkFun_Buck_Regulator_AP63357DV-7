@@ -6,9 +6,26 @@
 The board dimensions are illustrated in the drawing below; the listed measurements are in inches.
 
 <center>
-[![Board Dimensions](../img/hookup_guide/dimensions.png){ width="400" }](../img/hookup_guide/dimensions.png)<br>
-*[Board dimensions (PDF)](../board_files/dimensions.pdf) for the USB Host Shield, in inches. (Click to enlarge)*
+[![Board Dimensions](../img/hookup_guide/dimensions.png){ width="400" }](../img/hookup_guide/dimensions-white.png)<br>
+*[Board dimensions (PDF)](../board_files/dimensions.pdf) for the 5V buck regulator breakouts (AP63357), in inches. (Click to enlarge)*
 </center>
+
+??? tip "Need more measurements?"
+	For more information about the board's dimensions, users can download the [eagle files](../board_files/eagle_files.zip) for the board. These files can be opened in Eagle and additional measurements can be made with the dimensions tool.
+
+	??? info "Download Eagle for Free!"
+		Users can [download Eagle](https://www.autodesk.in/products/eagle/free-download) for free from AutoDesk.
+		
+		The program is free to use for hobbyists and students. However, it does require an account registration to utilize the software.
+	
+	??? info "Dimensions Tool"
+		This video from Autodesk demonstrates how to utilize the dimensions tool in Eagle, to include additional measurements:
+
+		<center>
+		<div class="video">
+		<iframe src="https://www.youtube.com/embed/dZLNd1FtNB8" title="EAGLE Dimension Tool" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+		</div>
+		</center>
 
 
 ## Power
