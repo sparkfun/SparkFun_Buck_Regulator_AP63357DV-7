@@ -52,7 +52,7 @@ Product Variants
 
 Version History
 ---------------
-* [v01](URL for tag specific to this version) - Initial Release
+* [v01](https://github.com/sparkfun/SparkFun_Buck_Regulator_AP63357DV-7/releases/tag/v01) - Initial Release
 
 License Information
 -------------------
