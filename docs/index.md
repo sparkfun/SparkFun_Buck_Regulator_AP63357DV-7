@@ -14,7 +14,7 @@ These boards feature the AP63357 from [Diodes Inc.](https://www.diodes.com/), a 
 
 <section class="grid cards show" style="grid-template-columns: repeat(auto-fit,minmax(8rem,1fr));" markdown>
 
--	5V Buck Regulator (COM-21255)
+-	[5V Buck Regulator (COM-21255)](https://www.sparkfun.com/products/21255)
 
 	---
 
@@ -28,7 +28,7 @@ These boards feature the AP63357 from [Diodes Inc.](https://www.diodes.com/), a 
 	[Purchase from SparkFun :fontawesome-solid-cart-plus:](https://www.sparkfun.com/products/21255){ .md-button .md-button--primary }
 	</center>
 
--	5V BabyBuck Regulator (COM-21256)
+-	[5V BabyBuck Regulator (COM-21256)](https://www.sparkfun.com/products/21256)
 
 	---
 
