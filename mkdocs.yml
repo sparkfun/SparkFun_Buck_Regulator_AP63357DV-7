@@ -8,8 +8,8 @@ repo_url: https://github.com/sparkfun/SparkFun_Buck_Regulator_AP63357DV-7
 repo_name: sparkfun/SparkFun_Buck_Regulator_AP63357DV-7
 
 copyright:
-  Copyright&#169; 2023 - SparkFun Electronics<br>
-  6333 Dry Creek Parkway, Niwot, Colorado 80503
+  Copyright 2023 - <a href="https://www.sparkfun.com/" target="_blank" rel="noopener">SparkFun Electronics&#174;<br>
+  <a href="https://goo.gl/maps/vkstCpQZW6jZMjzYA" target="_blank" rel="noopener">6333 Dry Creek Parkway, Niwot, Colorado 80503</a>
 
 # Default edit/view actions to "main" branch, instead of "master"
 edit_uri: blob/main/docs/
@@ -148,6 +148,7 @@ plugins:
   - monorepo
   # For PDF rendering
   - with-pdf:
+      copyright: Copyright 2023 - SparkFun Electronics&#174;
       cover_subtitle: none
       cover_logo: img/sfe_logo_sm.png
       exclude_pages: [ "hard_copy", "single_page", "github/file_issue", "github/contribute" ]
