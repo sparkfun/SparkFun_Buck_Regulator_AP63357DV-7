@@ -30,7 +30,7 @@ theme:
     text: Roboto
     code: Roboto Mono
   
-  # Features to Include (ref. theme docsumentation)
+  # Features to Include (ref. theme documentation)
   features:
 
     # Enable copy button on code blocks
@@ -43,7 +43,7 @@ theme:
     - content.action.edit
     # - content.action.view
 
-    # Enable Navigation buttons in footer (i.e. previous/next)
+    # Enable Navigation buttons in the footer (i.e. previous/next)
     - navigation.footer
 
     # Enables anchor tracking (updates page url with the section user is on)
@@ -51,12 +51,12 @@ theme:
     - navigation.tracking
     - navigation.tabs.sticky
 
-    # Enables tabs for navigating website
+    # Enables tabs for navigating the website
     - navigation.tabs
-    # Keeps tabs visible in header when scrolling
+    # Keeps tabs visible in the header when scrolling
     - navigation.tabs.sticky
     
-    # Adds pop-up button just below header (when user starts to scroll up)
+    # Adds pop-up button just below the header (when the user starts to scroll up)
     # Allows users to easily jump to the beginning of the page
     - navigation.top
 
@@ -64,7 +64,7 @@ theme:
     - navigation.path
 
 
-  # Adds light/dark theme to webpage
+  # Adds light/dark theme to the webpage
   palette:
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
@@ -138,11 +138,11 @@ plugins:
   - git-revision-date-localized:
       enable_creation_date: true
       type: timeago
-  # Add git commiters at bottom of the page
+  # Add git committers at bottom of the page
   - git-committers:
       repository: sparkfun/SparkFun_Buck_Regulator_AP63357DV-7
-      branch: docs-test
-  # Add git autors at bottom of the page
+      branch: main
+  # Add git authors at bottom of the page
   - git-authors
   # Enables use of Git submodules and larger code base
   - monorepo
@@ -194,7 +194,7 @@ markdown_extensions:
       # Chain: &#x26D3; ⛓
 
 
-# Configures social icons in footer
+# Configures social icons in the footer
 extra:
   social:
     - icon: sfe_logo

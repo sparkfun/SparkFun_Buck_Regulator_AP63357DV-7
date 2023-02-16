@@ -3,8 +3,8 @@ For users who would like to test their buck regulators, this page demonstrates a
 !!! note
 	Users who wish to test the maximum parameters of their board will need to consider the thermal and current limitations of the hardware. At minimum:
 	
-		* A professional/benchtop DC electric load tester should be used instead of the [variable load kit](https://www.sparkfun.com/products/14449).
-		* Active cooling should be provided to the buck regulator. 
+	* A professional/benchtop DC electric load tester should be used instead of the [variable load kit](https://www.sparkfun.com/products/14449).
+	* Active cooling should be provided to the buck regulator. 
 
 ## Required Hardware
 To test the buck regulator boards, users will need the following hardware:
@@ -70,11 +70,14 @@ For this test, the hardware was setup up as follows:
 * No heat sink was attached to the buck regulator.
 
 ## Test
-To perform the test, the power supply was set to provide 6.08V at up to 4A. Then, the SparkFun variable load kit was configured to draw 1A.
+To perform the test, the power supply was set to provide 6.08V at up to 4A. Meanwhile, the SparkFun variable load kit was configured to draw 1A(1).
+{ .annotate }
+
+1. For current draws over 1.5A, users should include a heat sink; and active cooling for loads over 2.5A.
 
 <figure markdown>
 [![](../img/hookup_guide/test_setup.jpg){ width="400" }](../img/hookup_guide/test_setup.jpg "Click to enlarge")<br>
 <figcaption markdown>Setup for a basic load test on the 5V Buck Regulator (AP63357DV).</figcaption>
 </figure>
 
-Although it is a little hard to see in the picture, the power supply is providing 6.08V with a 928mA current draw to the buck regulator. While, the variable load kit is drawing 1A with the 5.11V output voltage from the buck regulator.
+Although it is a little hard to see in the picture, the power supply is providing 6.08V with a 928mA current draw to the buck regulator. The variable load kit is drawing 1A with the 5.11V output voltage from the buck regulator.
