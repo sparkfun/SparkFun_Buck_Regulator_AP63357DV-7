@@ -5,10 +5,12 @@
 ## Board Dimensions
 The board dimensions are illustrated in the drawing below; the listed measurements are in inches.
 
-<center>
-[![Board Dimensions](../img/hookup_guide/dimensions.png){ width="400" }](../img/hookup_guide/dimensions-white.png)<br>
-*[Board dimensions (PDF)](../board_files/dimensions.pdf) for the 5V buck regulator breakouts (AP63357), in inches. (Click to enlarge)*
-</center>
+<figure markdown>
+[![Board Dimensions](../img/hookup_guide/dimensions.png){ width="400" }](../img/hookup_guide/dimensions-white.png "Click to enlarge")
+<figcaption markdown>
+[Board dimensions (PDF)](../board_files/dimensions.pdf) for the 5V buck regulator breakouts (AP63357), in inches.
+</figcaption>
+</figure>
 
 ??? tip "Need more measurements?"
 	For more information about the board's dimensions, users can download the [eagle files](../board_files/eagle_files.zip) for the board. These files can be opened in Eagle and additional measurements can be made with the dimensions tool.
@@ -36,12 +38,11 @@ Users are provided with [PTH](https://en.wikipedia.org/wiki/Through-hole_technol
 	<tr>
 		<td align="center">
 			<a href="../img/hookup_guide/buck-power_pins.jpg"><img src="../img/hookup_guide/buck-power_pins.jpg" width="200"></a><br>
-			<i>The PTH power pins on the 5V Buck Regulator (AP63357DV).<br>
-			(Click to enlarge)</i>
+			<i>The PTH power pins on the 5V Buck Regulator (AP63357DV).</i>
 		</td>
 		<td align="center">
 			<a href="../img/hookup_guide/baby-power_pins.jpg"><img src="../img/hookup_guide/baby-power_pins.jpg" width="200"></a><br>
-			<i>The PTH power pins on the 5V Baby Buck Regulator (AP63357DV), viewed from the bottom. (Click to enlarge)</i>
+			<i>The PTH power pins on the 5V Baby Buck Regulator (AP63357DV), viewed from the bottom.</i>
 		</td>
 	<tr>
 </table>
@@ -50,16 +51,16 @@ Users are provided with [PTH](https://en.wikipedia.org/wiki/Through-hole_technol
 <div class="grid cards" markdown>
 
 -   <figure markdown>
-	[![](../img/hookup_guide/buck-power_pins.jpg)](../img/hookup_guide/buck-power_pins.jpg)
+	[![](../img/hookup_guide/buck-power_pins.jpg)](../img/hookup_guide/buck-power_pins.jpg "Click to enlarge")
 	<figcaption markdown>
-	The PTH power pins on the 5V Buck Regulator (AP63357DV). (Click to enlarge)
+	The PTH power pins on the 5V Buck Regulator (AP63357DV).
 	</figcaption>
 	</figure>
 
 -   <figure markdown>
-	[![](../img/hookup_guide/baby-power_pins.jpg)](../img/hookup_guide/baby-power_pins.jpg)
+	[![](../img/hookup_guide/baby-power_pins.jpg)](../img/hookup_guide/baby-power_pins.jpg "Click to enlarge")
 	<figcaption markdown>
-	The PTH power pins the 5V Baby Buck Regulator (AP63357DV), viewed from the bottom. (Click to enlarge)
+	The PTH power pins the 5V Baby Buck Regulator (AP63357DV), viewed from the bottom.
 	</figcaption>
 	</figure>
 
@@ -94,26 +95,28 @@ Below, is a general summary of the circuitry on the board:
 		PTH *(slots)* are provided for users to add a [barrel jack connector](https://www.sparkfun.com/products/119) to the top or bottom of the board. This provides users with an alternative method to connect a power supply to their board.
 
 		<figure markdown>
-		[![](../img/hookup_guide/buck-barrel_jack.jpg){ width="200" }](../img/hookup_guide/buck-barrel_jack.jpg)
-		<figcaption markdown>The plated slots for a barrel jack connector on the 5V Buck Regulator (AP63357DV). (Click to enlarge)</figcaption>
+		[![](../img/hookup_guide/buck-barrel_jack.jpg){ width="200" }](../img/hookup_guide/buck-barrel_jack.jpg "Click to enlarge")
+		<figcaption markdown>The plated slots for a barrel jack connector on the 5V Buck Regulator (AP63357DV).</figcaption>
 		</figure>
 
 	=== "Screw Terminals"
 		A screw terminal is provided for users, as a non-permanent solution, to easily connect wires to the board. The screw terminal is compatible with the following wire sizes from **26AWG** to **16AWG**.
 
 		<figure markdown>
-		[![](../img/hookup_guide/buck-screw_terminal.jpg){ width="200" }](../img/hookup_guide/buck-screw_terminal.jpg)<br>
-		<figcaption markdown>The screw terminal on the 5V Buck Regulator (AP63357DV). (Click to enlarge)</figcaption>
+		[![](../img/hookup_guide/buck-screw_terminal.jpg){ width="200" }](../img/hookup_guide/buck-screw_terminal.jpg "Click to enlarge")
+		<figcaption markdown>The screw terminal on the 5V Buck Regulator (AP63357DV).</figcaption>
 		</figure>
 
 
 ### Power LED
 The red, power (`PWR`) LED will light up when the switching power output is enabled. *(Not available on baby buck regulator board.)*
 
-<center>
-[![Power LED](../img/hookup_guide/buck-LED_pwr.jpg){ width="200" }](../img/hookup_guide/buck-LED_pwr.jpg)<br>
-The `PWR` status LED indicator for the 5V Buck Regulator (AP63357DV). (Click to enlarge)*
-</center>
+<figure markdown>
+[![Power LED](../img/hookup_guide/buck-LED_pwr.jpg){ width="200" }](../img/hookup_guide/buck-LED_pwr.jpg "Click to enlarge")
+<figcaption markdown>
+The `PWR` status LED indicator for the 5V Buck Regulator (AP63357DV).
+</figcaption>
+</figure>
 
 
 ### Power Control
@@ -128,12 +131,11 @@ There is a high-voltage enable pin (`EN`) to control the output voltage *(i.e. o
 	<tr>
 		<td align="center">
 			<a href="../img/hookup_guide/buck-enable_pin.jpg"><img src="../img/hookup_guide/buck-enable_pin.jpg" width="200"></a><br>
-			<i>Enable pin on the 5V Buck Regulator (AP63357DV).<br>
-			(Click to enlarge)</i>
+			<i>Enable pin on the 5V Buck Regulator (AP63357DV).</i>
 		</td>
 		<td align="center">
 			<a href="../img/hookup_guide/baby-enable_pin.jpg"><img src="../img/hookup_guide/baby-enable_pin.jpg" width="200"></a><br>
-			<i>Enable pin on the 5V Baby Buck Regulator (AP63357DV), viewed from the bottom. (Click to enlarge)</i>
+			<i>Enable pin on the 5V Baby Buck Regulator (AP63357DV), viewed from the bottom.</i>
 		</td>
 	<tr>
 </table>
@@ -142,17 +144,16 @@ There is a high-voltage enable pin (`EN`) to control the output voltage *(i.e. o
 <div class="grid cards" markdown>
 
 -   <figure markdown>
-	[![](../img/hookup_guide/buck-enable_pin.jpg)](../img/hookup_guide/buck-enable_pin.jpg)
+	[![](../img/hookup_guide/buck-enable_pin.jpg)](../img/hookup_guide/buck-enable_pin.jpg "Click to enlarge")
 	<figcaption markdown>
-	Enable pin on the 5V Buck Regulator (AP63357DV).<br>
-	(Click to enlarge)
+	Enable pin on the 5V Buck Regulator (AP63357DV).
 	</figcaption>
 	</figure>
 
 -   <figure markdown>
-	[![](../img/hookup_guide/baby-enable_pin.jpg)](../img/hookup_guide/baby-enable_pin.jpg)
+	[![](../img/hookup_guide/baby-enable_pin.jpg)](../img/hookup_guide/baby-enable_pin.jpg "Click to enlarge")
 	<figcaption markdown>
-	Enable pin on the 5V Baby Buck Regulator (AP63357DV), viewed from the bottom. (Click to enlarge)
+	Enable pin on the 5V Baby Buck Regulator (AP63357DV), viewed from the bottom.
 	</figcaption>
 	</figure>
 
@@ -190,15 +191,13 @@ Features:
 </td>
 <td align="center">
 <a href="../img/hookup_guide/buck-AP63357.jpg"><img src="../img/hookup_guide/buck-AP63357.jpg" width="200"></a><br>
-<i>AP63357 chip on the 5V Buck Regulator (AP63357DV).<br>
-(Click to enlarge)</i>
+<i>AP63357 chip on the 5V Buck Regulator (AP63357DV).</i>
 </td>
 </tr>
 <tr>
 <td align="center">
 <a href="../img/hookup_guide/baby-AP63357.jpg"><img src="../img/hookup_guide/baby-AP63357.jpg" width="200"></a><br>
-<i>AP63357 chip on the 5V Baby Buck Regulator (AP63357DV).<br>
-(Click to enlarge)</i>
+<i>AP63357 chip on the 5V Baby Buck Regulator (AP63357DV).</i>
 </td>
 <tr>
 </table>
@@ -229,18 +228,16 @@ Features:
 <section class="grid cards" markdown>
 
 -	<figure markdown>
-	[![](../img/hookup_guide/buck-AP63357.jpg)](../img/hookup_guide/buck-AP63357.jpg)
+	[![](../img/hookup_guide/buck-AP63357.jpg)](../img/hookup_guide/buck-AP63357.jpg "Click to enlarge")
 	<figcaption markdown>
-	AP63357 chip on the 5V Buck Regulator (AP63357DV).<br>
-	(Click to enlarge)
+	AP63357 chip on the 5V Buck Regulator (AP63357DV).
 	</figcaption>
 	</figure>
 
 -   <figure markdown>
-	[![](../img/hookup_guide/baby-AP63357.jpg)](../img/hookup_guide/baby-AP63357.jpg)
+	[![](../img/hookup_guide/baby-AP63357.jpg)](../img/hookup_guide/baby-AP63357.jpg "Click to enlarge")
 	<figcaption markdown>
-	AP63357 chip on the 5V Baby Buck Regulator (AP63357DV).<br>
-	(Click to enlarge)
+	AP63357 chip on the 5V Baby Buck Regulator (AP63357DV).
 	</figcaption>
 	</figure>
 
@@ -253,9 +250,9 @@ Features:
 	Users should expect a power efficiency close to the charts presented Figures 3, 25, and 26 in the [datasheet](../component_documentation/AP63356-AP63357.pdf) *(i.e. 70% with smaller loads and up to 95% with larger loads)*. While the efficiency varies with the load current and cooling, we didn't see anything below 85% for most of our [test cases](#thermal-characteristics "from 100 mA to 3A").
 
 	<figure markdown>
-	[![](../img/hookup_guide/AP63357-efficiency.png){ width=400 }](../img/hookup_guide/AP63357-efficiency.png)
+	[![](../img/hookup_guide/AP63357-efficiency.png){ width=400 }](../img/hookup_guide/AP63357-efficiency.png "Click to enlarge")
 	<figcaption markdown>
-	Figure 3 from the [datasheet](../component_documentation/AP63356-AP63357.pdf). (Click to enlarge)
+	Figure 3 from the [datasheet](../component_documentation/AP63356-AP63357.pdf).
 	</figcaption>
 	</figure>
 
@@ -265,9 +262,9 @@ Features:
 	Additionally, we will note that there is some noise in the output voltage, due to the switching of the regulator. While this increases with the load current, for most users it won't be relevent to their use case.
 
 	<figure markdown>
-	[![](../img/hookup_guide/AP63357-line_load_reg.png){ width=400 }](../img/hookup_guide/AP63357-line_load_reg.png)
+	[![](../img/hookup_guide/AP63357-line_load_reg.png){ width=400 }](../img/hookup_guide/AP63357-line_load_reg.png "Click to enlarge")
 	<figcaption markdown>
-	Figure 27 and 28 from the [datasheet](../component_documentation/AP63356-AP63357.pdf). (Click to enlarge)
+	Figure 27 and 28 from the [datasheet](../component_documentation/AP63356-AP63357.pdf).
 	</figcaption>
 	</figure>
 
@@ -308,11 +305,11 @@ A platted copper pad is provided on the back of the boards, where users can add 
 	<tr>
 		<td align="center">
 			<a href="../img/hookup_guide/buck-heat_sink.jpg"><img src="../img/hookup_guide/buck-heat_sink.jpg" width="200"></a><br>
-			<i>Heat sink pad on the back of the 5V Buck Regulator (AP63357DV). (Click to enlarge)</i>
+			<i>Heat sink pad on the back of the 5V Buck Regulator (AP63357DV).</i>
 		</td>
 		<td align="center">
 			<a href="../img/hookup_guide/baby-heat_sink.jpg"><img src="../img/hookup_guide/baby-heat_sink.jpg" width="200"></a><br>
-			<i>Heat sink pad on the back of the 5V Baby Buck Regulator (AP63357DV). (Click to enlarge)</i>
+			<i>Heat sink pad on the back of the 5V Baby Buck Regulator (AP63357DV).</i>
 		</td>
 	<tr>
 </table>
@@ -321,16 +318,16 @@ A platted copper pad is provided on the back of the boards, where users can add 
 <div class="grid cards" markdown>
 
 -   <figure markdown>
-	[![](../img/hookup_guide/buck-heat_sink.jpg)](../img/hookup_guide/buck-heat_sink.jpg)
+	[![](../img/hookup_guide/buck-heat_sink.jpg)](../img/hookup_guide/buck-heat_sink.jpg "Click to enlarge")
 	<figcaption markdown>
-	Heat sink pad on the back of the 5V Buck Regulator (AP63357DV). (Click to enlarge)
+	Heat sink pad on the back of the 5V Buck Regulator (AP63357DV).
 	</figcaption>
 	</figure>
 
 -   <figure markdown>
-	[![](../img/hookup_guide/baby-heat_sink.jpg)](../img/hookup_guide/baby-heat_sink.jpg)
+	[![](../img/hookup_guide/baby-heat_sink.jpg)](../img/hookup_guide/baby-heat_sink.jpg "Click to enlarge")
 	<figcaption markdown>
-	Heat sink pad on the back of the 5V Baby Buck Regulator (AP63357DV). (Click to enlarge)
+	Heat sink pad on the back of the 5V Baby Buck Regulator (AP63357DV).
 	</figcaption>
 	</figure>
 
@@ -344,9 +341,9 @@ A platted copper pad is provided on the back of the boards, where users can add 
 The thermal limitations of the board will dictate the maximum load current our boards can provide. Below is a chart of some testing we have performed using the full-size, [5V Baby Buck Regulator](https://www.sparkfun.com/products/21255) with a [heat sink](https://www.sparkfun.com/products/18704) attached to the back of the board.
 
 <figure markdown>
-[![](../img/hookup_guide/thermal_characteristics.png)](../img/hookup_guide/thermal_characteristics.png)
+[![](../img/hookup_guide/thermal_characteristics.png)](../img/hookup_guide/thermal_characteristics.png "Click to enlarge")
 <figcaption markdown>
-Thermal characteristics for the [5V Baby Buck Regulator](https://www.sparkfun.com/products/21255) with a [heat sink](https://www.sparkfun.com/products/18704). (Click to enlarge)
+Thermal characteristics for the [5V Baby Buck Regulator](https://www.sparkfun.com/products/21255) with a [heat sink](https://www.sparkfun.com/products/18704).
 </figcaption>
 </figure>
 
@@ -373,7 +370,9 @@ There is a jumper on the back of the board that can be used to easily modify a h
 
 * **PWR** - This jumper can be used to remove power to the `PWR` LED. 
 
-<center>
-[![Jumpers](../img/hookup_guide/buck-jumper.jpg){ width="200" }](../img/hookup_guide/buck-jumper.jpg)<br>
-*The LED jumper on the back of the 5V Buck Regulator (AP63357DV). (Click to enlarge)*
-</center>
+<figure markdown>
+[![Jumpers](../img/hookup_guide/buck-jumper.jpg){ width="200" }](../img/hookup_guide/buck-jumper.jpg "Click to enlarge")
+<figcaption markdown>
+The LED jumper on the back of the 5V Buck Regulator (AP63357DV).
+</figcaption>
+</figure>

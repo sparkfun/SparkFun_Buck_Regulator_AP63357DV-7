@@ -73,8 +73,8 @@ For this test, the hardware was setup up as follows:
 To perform the test, the power supply was set to provide 6.08V at up to 4A. Then, the SparkFun variable load kit was configured to draw 1A.
 
 <figure markdown>
-[![](../img/hookup_guide/test_setup.jpg){ width="400" }](../img/hookup_guide/test_setup.jpg)<br>
-<figcaption markdown>Setup for a basic load test on the 5V Buck Regulator (AP63357DV). (Click to enlarge)</figcaption>
+[![](../img/hookup_guide/test_setup.jpg){ width="400" }](../img/hookup_guide/test_setup.jpg "Click to enlarge")<br>
+<figcaption markdown>Setup for a basic load test on the 5V Buck Regulator (AP63357DV).</figcaption>
 </figure>
 
 Although it is a little hard to see in the picture, the power supply is providing 6.08V with a 928mA current draw to the buck regulator. While, the variable load kit is drawing 1A with the 5.11V output voltage from the buck regulator.

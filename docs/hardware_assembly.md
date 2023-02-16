@@ -19,11 +19,11 @@ The pins for the SparkFun **5V** Buck Regulator Breakout boards are broken out t
 	<tr>
 		<td align="center">
 			<a href="../img/hookup_guide/assembly-header_buck.jpg"><img src="../img/hookup_guide/assembly-header_buck.jpg" width="200"></a><br>
-			<i>Soldering headers to the 5V Buck Regulator (AP63357DV). (Click to enlarge)</i>
+			<i>Soldering headers to the 5V Buck Regulator (AP63357DV).</i>
 		</td>
 		<td align="center">
 			<a href="../img/hookup_guide/assembly-header_baby.jpg"><img src="../img/hookup_guide/assembly-header_baby.jpg" width="200"></a><br>
-			<i>Soldering headers to the 5V Baby Buck Regulator (AP63357DV). (Click to enlarge)</i>
+			<i>Soldering headers to the 5V Baby Buck Regulator (AP63357DV).</i>
 		</td>
 	<tr>
 </table>
@@ -32,9 +32,9 @@ The pins for the SparkFun **5V** Buck Regulator Breakout boards are broken out t
 <div class="grid cards" markdown>
 
 -   <figure markdown>
-	[![](../img/hookup_guide/assembly-header_buck.jpg)](../img/hookup_guide/assembly-header_buck.jpg)
+	[![](../img/hookup_guide/assembly-header_buck.jpg)](../img/hookup_guide/assembly-header_buck.jpg "Click to enlarge")
 	<figcaption markdown>
-	Soldering headers to the 5V Buck Regulator (AP63357DV). (Click to enlarge)
+	Soldering headers to the 5V Buck Regulator (AP63357DV).
 	</figcaption>
 	</figure>
 
@@ -42,16 +42,16 @@ The pins for the SparkFun **5V** Buck Regulator Breakout boards are broken out t
 		On the 5V Buck Regulator, users can solder headers to the [`VIN`](../hardware_overview/#power "Input Voltage") and [`EN`](../hardware_overview/#power-control "Enable Pin") pins so that they can be used with a [2-pin jumper](https://www.sparkfun.com/products/9044). The high-voltage enable (`EN`) pin can be shorted directly to the input voltage (`VIN`) to enable the power output.
 
 		<figure markdown>
-		[![](../img/hookup_guide/assembly-jumper_enable_pin2-400.gif)](../img/hookup_guide/assembly-jumper_enable_pin.gif)
+		[![](../img/hookup_guide/assembly-jumper_enable_pin2-400.gif)](../img/hookup_guide/assembly-jumper_enable_pin.gif "Click to enlarge")
 		<figcaption markdown>
-		Headers soldered to jumper the `EN` and `VIN` pins on the 5V Buck Regulator. (Click to enlarge)
+		Headers soldered to jumper the `EN` and `VIN` pins on the 5V Buck Regulator.
 		</figcaption>
 		</figure>
 
 -   <figure markdown>
-	[![](../img/hookup_guide/assembly-header_baby.jpg)](../img/hookup_guide/assembly-header_baby.jpg)
+	[![](../img/hookup_guide/assembly-header_baby.jpg)](../img/hookup_guide/assembly-header_baby.jpg "Click to enlarge")
 	<figcaption markdown>
-	Soldering headers to the 5V Baby Buck Regulator (AP63357DV). (Click to enlarge)
+	Soldering headers to the 5V Baby Buck Regulator (AP63357DV).
 	</figcaption>
 	</figure>
 
@@ -59,9 +59,9 @@ The pins for the SparkFun **5V** Buck Regulator Breakout boards are broken out t
 		When selecting headers for the BabyBuck regulator, the [right-angle headers](https://www.sparkfun.com/products/553) work great with breadboards.
 
 		<figure markdown>
-		[![](../img/hookup_guide/assembly-breadboard_baby.jpg)](../img/hookup_guide/assembly-breadboard_baby.jpg)
+		[![](../img/hookup_guide/assembly-breadboard_baby.jpg)](../img/hookup_guide/assembly-breadboard_baby.jpg "Click to enlarge")
 		<figcaption markdown>
-		The 5V Baby Buck Regulator with right-angle headers and heat sink on a breadboard. (Click to enlarge)
+		The 5V Baby Buck Regulator with right-angle headers and heat sink on a breadboard.
 		</figcaption>
 		</figure>
 
@@ -86,11 +86,11 @@ Users can also solder their wire connections directly to the pins of the SparkFu
 	<tr>
 		<td align="center">
 			<a href="../img/hookup_guide/assembly-wire_buck.jpg"><img src="../img/hookup_guide/assembly-wire_buck.jpg" width="200"></a><br>
-			<i>Soldering wires to the 5V Buck Regulator (AP63357DV). (Click to enlarge)</i>
+			<i>Soldering wires to the 5V Buck Regulator (AP63357DV).</i>
 		</td>
 		<td align="center">
 			<a href="../img/hookup_guide/assembly-wire_baby.jpg"><img src="../img/hookup_guide/assembly-wire_baby.jpg" width="200"></a><br>
-			<i>Soldering wires to the 5V Baby Buck Regulator (AP63357DV). (Click to enlarge)</i>
+			<i>Soldering wires to the 5V Baby Buck Regulator (AP63357DV).</i>
 		</td>
 	<tr>
 </table>
@@ -99,16 +99,16 @@ Users can also solder their wire connections directly to the pins of the SparkFu
 <div class="grid cards" markdown>
 
 -   <figure markdown>
-	[![](../img/hookup_guide/assembly-wire_buck.jpg)](../img/hookup_guide/assembly-wire_buck.jpg)
+	[![](../img/hookup_guide/assembly-wire_buck.jpg)](../img/hookup_guide/assembly-wire_buck.jpg "Click to enlarge")
 	<figcaption markdown>
-	Soldering wires to the 5V Buck Regulator (AP63357DV). (Click to enlarge)
+	Soldering wires to the 5V Buck Regulator (AP63357DV).
 	</figcaption>
 	</figure>
 
 -   <figure markdown>
-	[![](../img/hookup_guide/assembly-wire_baby.jpg)](../img/hookup_guide/assembly-wire_baby.jpg)
+	[![](../img/hookup_guide/assembly-wire_baby.jpg)](../img/hookup_guide/assembly-wire_baby.jpg "Click to enlarge")
 	<figcaption markdown>
-	Soldering wires to the 5V Baby Buck Regulator (AP63357DV). (Click to enlarge)
+	Soldering wires to the 5V Baby Buck Regulator (AP63357DV).
 	</figcaption>
 	</figure>
 
@@ -130,16 +130,16 @@ Users can also solder their wire connections directly to the pins of the SparkFu
 		To add a [barrel jack connector](https://www.sparkfun.com/products/119) to their board, users will need to solder it to the provided plated through hole slots.
 
 		<figure markdown>
-		[![](../img/hookup_guide/assembly-barrel_jack.jpg){ width="200" }](../img/hookup_guide/assembly-barrel_jack.jpg)<br>
-		<figcaption markdown>Soldering a [barrel jack connector](https://www.sparkfun.com/products/119) onto the 5V Buck Regulator. (Click to enlarge)</figcaption>
+		[![](../img/hookup_guide/assembly-barrel_jack.jpg){ width="200" }](../img/hookup_guide/assembly-barrel_jack.jpg "Click to enlarge")
+		<figcaption markdown>Soldering a [barrel jack connector](https://www.sparkfun.com/products/119) onto the 5V Buck Regulator.</figcaption>
 		</figure>
 
 	=== "Screw Terminals"
 		A screw terminal is a great non-permanent solution, to connect the board. To use the screw terminals, simply insert the correct wires into the screw terminal opening and tighten the screw with a small flathead screwdriver for a firm connection.
 
 		<figure markdown>
-		[![](../img/hookup_guide/assembly-screw_terminal.jpg){ width="200" }](../img/hookup_guide/assembly-screw_terminal.jpg)<br>
-		<figcaption markdown>Connecting a wire to the 5V Buck Regulator's' screw terminal. (Click to enlarge)</figcaption>
+		[![](../img/hookup_guide/assembly-screw_terminal.jpg){ width="200" }](../img/hookup_guide/assembly-screw_terminal.jpg "Click to enlarge")
+		<figcaption markdown>Connecting a wire to the 5V Buck Regulator's' screw terminal.</figcaption>
 		</figure>
 
 
@@ -171,11 +171,11 @@ To attach a [heat sink](https://www.sparkfun.com/products/18704) to the board, u
 	<tr>
 		<td align="center">
 			<a href="../img/hookup_guide/assembly-heat_sink_buck.jpg"><img src="../img/hookup_guide/assembly-heat_sink_buck.jpg" width="200"></a><br>
-			<i><a href="https://www.sparkfun.com/products/18704">Heat sink</a> attached to the 5V Buck Regulator (AP63357DV). (Click to enlarge)</i>
+			<i><a href="https://www.sparkfun.com/products/18704">Heat sink</a> attached to the 5V Buck Regulator (AP63357DV).</i>
 		</td>
 		<td align="center">
 			<a href="../img/hookup_guide/assembly-heat_sink_baby.jpg"><img src="../img/hookup_guide/assembly-heat_sink_baby.jpg" width="200"></a><br>
-			<i><a href="https://www.sparkfun.com/products/18704">Heat sink</a> attached to the 5V Baby Buck Regulator (AP63357DV). (Click to enlarge)</i>
+			<i><a href="https://www.sparkfun.com/products/18704">Heat sink</a> attached to the 5V Baby Buck Regulator (AP63357DV).</i>
 		</td>
 	<tr>
 </table>
@@ -184,16 +184,16 @@ To attach a [heat sink](https://www.sparkfun.com/products/18704) to the board, u
 <div class="grid cards" markdown>
 
 -   <figure markdown>
-	[![](../img/hookup_guide/assembly-heat_sink_buck.jpg)](../img/hookup_guide/assembly-heat_sink_buck.jpg)
+	[![](../img/hookup_guide/assembly-heat_sink_buck.jpg)](../img/hookup_guide/assembly-heat_sink_buck.jpg "Click to enlarge")
 	<figcaption markdown>
-	[Heat sink](https://www.sparkfun.com/products/18704) attached to the 5V Buck Regulator (AP63357DV). (Click to enlarge)
+	[Heat sink](https://www.sparkfun.com/products/18704) attached to the 5V Buck Regulator (AP63357DV).
 	</figcaption>
 	</figure>
 
 -   <figure markdown>
-	[![](../img/hookup_guide/assembly-heat_sink_baby.jpg)](../img/hookup_guide/assembly-heat_sink_baby.jpg)
+	[![](../img/hookup_guide/assembly-heat_sink_baby.jpg)](../img/hookup_guide/assembly-heat_sink_baby.jpg "Click to enlarge")
 	<figcaption markdown>
-	[Heat sink](https://www.sparkfun.com/products/18704) attached to the 5V Baby Buck Regulator (AP63357DV). (Click to enlarge)
+	[Heat sink](https://www.sparkfun.com/products/18704) attached to the 5V Baby Buck Regulator (AP63357DV).
 	</figcaption>
 	</figure>
 
