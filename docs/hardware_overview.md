@@ -86,6 +86,52 @@ Below, is a general summary of the circuitry on the board:
 	* With a heat sink, we have found users can expect to draw up to 2.5A
 	* Without a heat sink or active cooling, we recommend users not load the boards with more than 1.5A.
 
+??? tip "Quiescent Current Draw"
+    Users should expect a maximum quiescent current draw of ~365&micro;A from the board due to the voltage divider for the [UVLO](#undervoltage-lockout "Undervoltage Lockout"). For a lower quiescent current, users can modify the board by removing the voltage divider's resistors.
+
+	<div class="grid cards" markdown>
+
+	-	Measured Values
+
+		---
+
+		<center>
+		
+		| Input Voltage (V) | I~q~ (&micro;A) | I~q~ - Power Enabled (&micro;A) |
+		| :-: | :-: | :-: |
+		| 6 | 65 | 196 |
+		| 12 | 129 | 209 |
+		| 24 | 260 | 290.5 |
+		| 32 | 330 | 355 |
+
+		</center>
+
+		!!! info
+			For more information about the measured values for the quiescent current, please refer to this [GitHub issue](https://github.com/sparkfun/SparkFun_Buck_Regulator_AP63357DV-7/issues/1).
+
+	-	=== "Buck Regulator"
+			
+			<figure markdown>
+			[![](../img/hookup_guide/buck-uvlo_mod.jpg)](../img/hookup_guide/buck-uvlo_mod.jpg "Click to enlarge")
+			<figcaption markdown>
+			Resistors for the UVLO the 5V Buck Regulator (AP63357DV).
+			</figcaption>
+			</figure>
+	
+		=== "BabyBuck Regulator"
+			
+			<figure markdown>
+			[![](../img/hookup_guide/baby-uvlo_mod.jpg)](../img/hookup_guide/baby-uvlo_mod.jpg "Click to enlarge")
+			<figcaption markdown>
+			Resistors for the UVLO the 5V Baby Buck Regulator (AP63357DV).
+			</figcaption>
+			</figure>
+		
+		!!! danger
+			Modifying a board to remove the voltage divider, requires advanced soldering skills. Users should **not** attempt this modification unless it is absolutely, necessary and they are confident in their skills because the board can be permanently damaged.
+
+	</div>
+
 ### Alternative Connections
 
 !!! info  "Buck Regulator *(only)*"
