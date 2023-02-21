@@ -184,7 +184,7 @@ To get started, users will need a few items. Now some users may have a few of th
 * [Small Flathead Screw Driver](https://www.sparkfun.com/categories/376 "Click here for a full selection of our available screwdrivers.")  - *(Optional - Not necessary for the BabyBuck Regulator)*
 
 
-<table class="pdf" style="border-style:none">
+<table class="pdf">
 	<tr>
 		<td>
 			<a href="https://www.sparkfun.com/products/21256">
@@ -385,7 +385,7 @@ To get started, users will need a few items. Now some users may have a few of th
 To modify the [jumper](hardware_overview/#jumper "This feature is not available on the BabyBuck Regulator"), users will need [soldering equipment](https://www.sparkfun.com/categories/49) and/or a [hobby knife](https://www.sparkfun.com/categories/379).
 
 
-<table class="pdf" style="border-style:none">
+<table class="pdf">
 	<tr>
 		<td>
 			<a href="https://www.sparkfun.com/products/9325">
@@ -471,7 +471,7 @@ To modify the [jumper](hardware_overview/#jumper "This feature is not available 
 As a more sophisticated product, we will skip over the more fundamental tutorials (i.e. [**Ohm's Law**](https://learn.sparkfun.com/tutorials/voltage-current-resistance-and-ohms-law) and [**What is Electricity?**](https://learn.sparkfun.com/tutorials/what-is-electricity)). However, below are a few tutorials that may help users familiarize themselves with various aspects of the board.
 
 
-<table class="pdf" style="border-style:none">
+<table class="pdf">
 	<tr>
 		<td align="center">
 			<a href="https://learn.sparkfun.com/tutorials/72">Electric Power<br>

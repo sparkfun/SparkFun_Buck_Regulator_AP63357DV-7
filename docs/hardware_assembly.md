@@ -15,7 +15,7 @@
 The pins for the SparkFun **5V** Buck Regulator Breakout boards are broken out to 0.1"-spaced pins on the outer edges of the board. When selecting headers, be sure you are aware of the functionality and board orientation required.
 
 <center>
-<table class="pdf" style="border-style:none">
+<table class="pdf">
 	<tr>
 		<td align="center">
 			<a href="../img/hookup_guide/assembly-header_buck.jpg"><img src="../img/hookup_guide/assembly-header_buck.jpg" width="200"></a><br>
@@ -82,7 +82,7 @@ Users can also solder their wire connections directly to the pins of the SparkFu
 	With higher current applications, users should ensure the wires can handle the current load. *(i.e. A 32AWG wire probably won't be able to handle 3.5A)*
 
 <center>
-<table class="pdf" style="border-style:none">
+<table class="pdf">
 	<tr>
 		<td align="center">
 			<a href="../img/hookup_guide/assembly-wire_buck.jpg"><img src="../img/hookup_guide/assembly-wire_buck.jpg" width="200"></a><br>
@@ -167,7 +167,7 @@ To attach a [heat sink](https://www.sparkfun.com/products/18704) to the board, u
     * Make sure to avoid any electrical contact with the sides of the heat sink.
 
 <center>
-<table class="pdf" style="border-style:none">
+<table class="pdf">
 	<tr>
 		<td align="center">
 			<a href="../img/hookup_guide/assembly-heat_sink_buck.jpg"><img src="../img/hookup_guide/assembly-heat_sink_buck.jpg" width="200"></a><br>

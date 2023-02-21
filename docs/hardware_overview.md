@@ -34,7 +34,7 @@ The board dimensions are illustrated in the drawing below; the listed measuremen
 Users are provided with [PTH](https://en.wikipedia.org/wiki/Through-hole_technology "Plated Through Holes") to connect their external power supply, the output voltage from the board, and the [`EN`](#power-control "Enable") power control pin for the buck regulator. The AP63357 buck regulator has an input voltage range is **3.8V** to **32V**. However, the boards require a **6V** minimum power supply to operate; as it is a step-down DC/DC converter with a 5V output. *(i.e. The boards cannot step-up or boost the voltage output.)*
 
 <center>
-<table class="pdf" style="border-style:none">
+<table class="pdf">
 	<tr>
 		<td align="center">
 			<a href="../img/hookup_guide/buck-power_pins.jpg"><img src="../img/hookup_guide/buck-power_pins.jpg" width="200"></a><br>
@@ -173,7 +173,7 @@ There is a high-voltage enable pin (`EN`) to control the output voltage *(i.e. o
 * Users can also configure the `EN` pin to set the [UVLO](#undervoltage-lockout "Undervoltage Lockout") threshold.
 
 <center>
-<table class="pdf" style="border-style:none">
+<table class="pdf">
 	<tr>
 		<td align="center">
 			<a href="../img/hookup_guide/buck-enable_pin.jpg"><img src="../img/hookup_guide/buck-enable_pin.jpg" width="200"></a><br>
@@ -212,7 +212,7 @@ The [AP63357](../component_documentation/AP63356-AP63357.pdf) from [Diodes Incor
 The AP63357 features a high-voltage `EN` pin that can be directly connected to `VIN` to automatically start up the device. To prevent output voltage overshoot and inrush current, the AP63357 also has a built-in 4ms soft-start time. Users can also configure the `EN` pin to set the [undervoltage lockout](#undervoltage-lockout "UVLO") threshold.
 
 <center>
-<table class="pdf" style="border-style:none" markdown="1">
+<table class="pdf" markdown="1">
 <tr markdown="1">
 <td rowspan="2" markdown="block">
 Features:
@@ -347,7 +347,7 @@ A platted copper pad is provided on the back of the boards, where users can add 
 * BabyBuck: 0.435" x 0.5"
 
 <center>
-<table class="pdf" style="border-style:none">
+<table class="pdf">
 	<tr>
 		<td align="center">
 			<a href="../img/hookup_guide/buck-heat_sink.jpg"><img src="../img/hookup_guide/buck-heat_sink.jpg" width="200"></a><br>

@@ -295,6 +295,10 @@
     display: contents;
   }
 
+  table + .pdf {
+    border-style:none;
+  }
+
   /* Limits images size in table */
   .pdf img {
     width: 100%;

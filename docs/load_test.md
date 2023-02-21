@@ -16,7 +16,7 @@ To test the buck regulator boards, users will need the following hardware:
 	* We are using the [80W DC Power Supply](https://www.sparkfun.com/products/retired/9291) *(retired product)*	
 
 
-<table class="pdf" style="border-style:none">
+<table class="pdf">
 	<tr>
 		<td>
 			<a href="https://www.sparkfun.com/products/retired/9291">
