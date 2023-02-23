@@ -295,6 +295,7 @@
     display: contents;
   }
 
+  /* Removes borders on tables with <class="pdf"> */
   table + .pdf {
     border-style:none;
   }
