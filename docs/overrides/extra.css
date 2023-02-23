@@ -266,15 +266,60 @@
   overflow: hidden;
 }
 
+.video_desc {
+  position: relative;
+  width: 100%;
+}
+.video_desc iframe {
+  position: relative;
+  top: 0;
+  width: 90vh;
+  min-width: 200px;
+  /* height: 12.72vw; */
+  height: calc(calc(calc(100vw - 48.4rem) * 0.35 - 2rem) * 0.9);
+  min-height: 113px;
+  border: 0;
+  overflow: hidden;
+}
 
 /* Add compatibility for mobile devices */
 /* height: 47vw * (viewport) percentage */
+
+/* Single Column */
 @media (max-width: 750px) {
   .video iframe {
     height: 47vw;
   }
+
+  .video_desc iframe {
+    /* 100vw * 0.9 * 56.25% (aspect ratio) */
+    height: 50.625vw;
+  }
 }
 
+/* Grid: 35/65 */
+@media (min-width: 751px) {
+  .video_desc iframe {
+    /* 100vw * 0.9 * 56.25% (aspect ratio) * 0.35 */
+    height: 17.71875vw;
+  }
+}
+
+/* Single ToC */
+@media (min-width: 960px) {
+  .video_desc iframe {
+    /* height: 12.7vw; */
+    height: calc( ( (100vw - 24.2rem) * 0.35 - 2rem) * 0.9);
+  }
+}
+
+/* Double ToC */
+@media (min-width: 1219px) {
+  .video_desc iframe {
+    /* height: 12.7vw; */
+    height: calc( ( (100vw - 24.2rem * 2) * 0.35 - 2rem) * 0.9);
+  }
+}
 
 /* ================================================================================== */
 /* Parameters for PDF Rendering                                                       */
