@@ -32,8 +32,8 @@ For lower current applications, users can connect a battery as the power source.
 
     * For the [coin cell battery holder](https://www.sparkfun.com/products/12618) and any of the 4xAA battery holders (using [alkaline batteries](https://www.sparkfun.com/products/15201)), users wouldn't be able to use the full capacity of their batteries.
         * The initial total voltage of the batteries would typically be above the nominal 6V and potentially work. However, as the batteries discharged they would eventually cross the 6V UVLO threshold of the buck converter well before they were completely depleted.
-        * In short, users would maybe be using ~85% of their batterys' total capacity at best.
-    * The [18650 lithium ion batteries](https://www.sparkfun.com/products/12895) in our catalog don't include a battery protection circuit and they would bypass their cutoff voltage. This would permanently damage the batteries and render them useless.
+        * In short, users would maybe be using ~85% of their battery's total capacity at best.
+    * The [18650 lithium ion batteries](https://www.sparkfun.com/products/12895) in our catalog don't include a battery protection circuit. With two batteries in series, they would bypass their cutoff voltage (~3.2V). This would permanently damage the batteries and render them useless.
 
 ### Automobile Batteries
 While users could connect a 12V car, motorcycle, marine, etc. battery for higher current applications, users may find this [5V/3A Buck Converter](https://www.sparkfun.com/products/18375) easier to mount and connect.
