@@ -24,3 +24,29 @@ While the AP6337 is rated up to 3.5A, users may experience thermal limitations t
     * Without a heat sink or active cooling, we recommend users not load the boards with more than 1.5A.
     * With a heat sink, we have found users can expect to draw up to 2.5A
 		
+## Connecting Batteries
+For lower current applications, users can connect a battery as the power source. However, we would only recommend using the 9V [battery products](https://www.sparkfun.com/categories/54) from our catalog.
+
+!!! warning
+    Other products such as the [coin cell battery holder](https://www.sparkfun.com/products/12618), [2x18650 battery holder](https://www.sparkfun.com/products/12900), and any of the 4xAA battery holders could technically work. However, we would advise against them for the following reasons:
+
+    * For the [coin cell battery holder](https://www.sparkfun.com/products/12618) and any of the 4xAA battery holders (using [alkaline batteries](https://www.sparkfun.com/products/15201)), users wouldn't be able to use the full capacity of their batteries.
+        * The initial total voltage of the batteries would typically be above the nominal 6V and potentially work. However, as the batteries discharged they would eventually cross the 6V UVLO threshold of the buck converter well before they were completely depleted.
+        * In short, users would maybe be using ~85% of their batterys' total capacity at best.
+    * The [18650 lithium ion batteries](https://www.sparkfun.com/products/12895) in our catalog don't include a battery protection circuit and they would bypass their cutoff voltage. This would permanently damage the batteries and render them useless.
+
+### Automobile Batteries
+While users could connect a 12V car, motorcycle, marine, etc. battery for higher current applications, users may find this [5V/3A Buck Converter](https://www.sparkfun.com/products/18375) easier to mount and connect.
+
+<div class="grid cards" markdown>
+
+-   <a href="https://www.sparkfun.com/products/18375">**Buck Converter - 8-20V to 5V/3A**<br>
+	COM-18375
+
+	---
+
+	<figure markdown>
+	![Buck Converter - 8-20V to 5V/3A](https://cdn.sparkfun.com/assets/parts/1/7/7/5/7/18375-12V_to_5V_3A_DC-DC_Converter-01.jpg)
+	</figure></a>
+
+</div>
