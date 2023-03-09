@@ -50,3 +50,17 @@ While users could connect a 12V car, motorcycle, marine, etc. battery for higher
 	</figure></a>
 
 </div>
+
+
+## Bypass the UVLO
+!!! info "Default Configuration"
+    On our boards, the `EN` pin is used to configure the [UVLO](../hardware_overview/#undervoltage-lockout "Undervoltage Lockout") threshold. Therefore, the power output from the board is enabled by default.
+
+On the 5V Buck Regulator, users can short/jumper the [`VIN`](../hardware_overview/#power "Input Voltage") and [`EN`](../hardware_overview/#power-control "Enable Pin") pins. This will bypass the 6V undervoltage lockout setting and allow users to provide a lower input voltage. However, it should be noted that because this is a step-down converter, the output voltage will then be limited to the voltage of the power supply and may not be 5V *(if the input voltage ≤5V)*.
+
+<figure markdown>
+[![](../img/hookup_guide/assembly-jumper_enable_pin2-400.gif)](../img/hookup_guide/assembly-jumper_enable_pin.gif "Click to enlarge")
+<figcaption markdown>
+Jumpering the `EN` and `VIN` pins on the 5V Buck Regulator to bypass the UVLO to use an input voltage below 6V.
+</figcaption>
+</figure>

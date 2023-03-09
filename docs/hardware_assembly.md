@@ -38,15 +38,20 @@ The pins for the SparkFun **5V** Buck Regulator Breakout boards are broken out t
 	</figcaption>
 	</figure>
 
-	??? tip "Jumper the Enable Pin"
+	??? tip "Bypass the UVLO"
+		!!! info "Default Configuration"
+			On our boards, the `EN` pin is used to configure the [UVLO](../hardware_overview/#undervoltage-lockout "Undervoltage Lockout") threshold. Therefore, the power output from the board is enabled by default.
+
 		On the 5V Buck Regulator, users can solder headers to the [`VIN`](../hardware_overview/#power "Input Voltage") and [`EN`](../hardware_overview/#power-control "Enable Pin") pins so that they can be used with a [2-pin jumper](https://www.sparkfun.com/products/9044). The high-voltage enable (`EN`) pin can be shorted directly to the input voltage (`VIN`) to enable the power output.
 
 		<figure markdown>
 		[![](../img/hookup_guide/assembly-jumper_enable_pin2-400.gif)](../img/hookup_guide/assembly-jumper_enable_pin.gif "Click to enlarge")
 		<figcaption markdown>
-		Headers soldered to jumper the `EN` and `VIN` pins on the 5V Buck Regulator.
+		Headers soldered to the `EN` and `VIN` pins on the 5V Buck Regulator and bypassing the UVLO.
 		</figcaption>
 		</figure>
+
+		This will allow users to bypass the 6V undervoltage lockout and use a lower input voltage. However, it should be noted that because this is a step-down converter, the output voltage will be limited to the voltage of the power supply and may not be 5V.
 
 -   <figure markdown>
 	[![](../img/hookup_guide/assembly-header_baby.jpg)](../img/hookup_guide/assembly-header_baby.jpg "Click to enlarge")

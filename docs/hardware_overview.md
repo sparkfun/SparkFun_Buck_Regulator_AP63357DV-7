@@ -172,6 +172,9 @@ There is a high-voltage enable pin (`EN`) to control the output voltage *(i.e. o
 * As a high-voltage pin, users can also connect the `EN` pin to `VIN` to automatically start up the device.
 * Users can also configure the `EN` pin to set the [UVLO](#undervoltage-lockout "Undervoltage Lockout") threshold.
 
+!!! info "Default Configuration"
+	On our boards, the `EN` pin to set the [UVLO](#undervoltage-lockout "Undervoltage Lockout") threshold. Therefore, the power output from the board is enabled by default.
+
 <center>
 <table class="pdf">
 	<tr>
