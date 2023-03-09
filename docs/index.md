@@ -204,7 +204,7 @@ To get started, users will need a few items. Now some users may have a few of th
 		</td>
 		<td>
 			<a href="https://www.sparkfun.com/products/18704">
-				<center><img src="https://cdn.sparkfun.com/r/140-140/assets/parts/1/8/2/3/7/18704-Heatsink_-_13.20_x_12.10_mm__Copper_.jpeg" alt="Heatsink - 13.20 x 12.10 mm (Copper)"></center>
+				<center><img src="https://cdn.sparkfun.com/r/140-140/assets/parts/1/8/2/3/7/18704-1.jpg" alt="Heatsink - 13.20 x 12.10 mm (Copper)"></center>
 				<h3 class="title">Heatsink - 13.20 x 12.10 mm (Copper)</h3>
 			</a>
 			PRT-18704
@@ -297,7 +297,7 @@ To get started, users will need a few items. Now some users may have a few of th
 	---
 
 	<figure markdown>
-	![Heatsink - 13.20 x 12.10 mm (Copper)](https://cdn.sparkfun.com/assets/parts/1/8/2/3/7/18704-Heatsink_-_13.20_x_12.10_mm__Copper_.jpeg)
+	![Heatsink - 13.20 x 12.10 mm (Copper)](https://cdn.sparkfun.com/assets/parts/1/8/2/3/7/18704-1.jpg)
 	</figure></a>
 
 	!!! tip "Fits both boards."
