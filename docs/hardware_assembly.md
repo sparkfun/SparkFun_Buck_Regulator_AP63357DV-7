@@ -66,7 +66,7 @@ The pins for the SparkFun **5V** Buck Regulator Breakout boards are broken out t
 		<figure markdown>
 		[![](../img/hookup_guide/assembly-breadboard_baby.jpg)](../img/hookup_guide/assembly-breadboard_baby.jpg "Click to enlarge")
 		<figcaption markdown>
-		The 5V Baby Buck Regulator with right-angle headers and heat sink on a breadboard.
+		The 5V Baby Buck Regulator with right-angle headers and a heat sink on a breadboard.
 		</figcaption>
 		</figure>
 
