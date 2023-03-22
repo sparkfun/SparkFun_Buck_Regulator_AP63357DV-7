@@ -42,7 +42,7 @@ To test the buck regulator boards, users will need the following hardware:
 </table>
 
 
-<div class="grid cards" markdown>
+<div class="grid cards hide" markdown>
 
 -   <a href="https://www.sparkfun.com/products/retired/9291">**Power Supply - 80W DC Switching Mode**<br>
 	TOL-09291

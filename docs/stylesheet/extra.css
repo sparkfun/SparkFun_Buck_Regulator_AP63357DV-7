@@ -265,9 +265,6 @@
   .grid.cards.desc {
     grid-template-columns: 100%;
   }
-  .grid.cards.show {
-    grid-template-columns: 100%;
-  }
 }
 
 
@@ -382,6 +379,10 @@
     width: 40px;
   }
 
+  .grid.cards.hide {
+    display: none;
+  }
+
   /* Removes borders on tables with <class="pdf"> */
   table + .pdf {
     border-style:none;
@@ -415,19 +416,29 @@
     max-height: 150px;
   }
 
-  /* Hides grid cards on pdf */
-  .md-typeset .grid {
-	  display: none;
   }
 
 
-  /* Display grid cards with board files */
-  .md-typeset .grid.grid.cards.show {
-	  display: block;
-  .md-typeset .grid.grid.cards.desc {
-	  display: none;
+  /* ================================================================================== */
+  /* Grid Cards                                                                         */
+  /* ================================================================================== */
+
+  /* Column Spacing =================================================================== */
+
+  /* Two Column Setting */
+  .md-typeset .grid.grid.cards.col-2 {
+	  grid-template-columns: repeat(auto-fit,minmax(16rem,1fr));
   }
 
+  /* Three Column Setting */
+  .md-typeset .grid.grid.cards.col-3 {
+	  grid-template-columns: repeat(auto-fit,minmax(12rem,1fr));
+  }
+
+  /* Four Column Setting */
+  .md-typeset .grid.grid.cards.col-4 {
+	  grid-template-columns: repeat(auto-fit,minmax(8rem,1fr));
+  }
 
   /* Sets grid card width (not working)
   Works for File > Print function, but not valid for PDF generator due to issue with Weazy

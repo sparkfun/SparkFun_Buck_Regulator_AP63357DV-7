@@ -16,7 +16,7 @@ icon: material/book-open-page-variant
 These boards feature the AP63357 from [Diodes Inc.](https://www.diodes.com/), a 3.5A synchronous buck converter with a wide input voltage range of 3.8V to 32V. The fully integrated 74m&ohm; high-side power MOSFET/40m low-side power MOSFET provide a high-efficiency step-down DC/DC conversion. The boards are configured to provide a regulated **5V** output and feature a high-voltage `EN` *(enable)* control pin that is rated up to 32V. The boards also include 0.1" spaced PTH pins to connect the input and output power and a copper pad is provided to attach a heat sink to the bottom of the board; to dissipate excess heat.
 
 
-<section class="grid cards show" style="grid-template-columns: repeat(auto-fit,minmax(8rem,1fr));" markdown>
+<section class="grid cards" style="grid-template-columns: repeat(auto-fit,minmax(8rem,1fr));" markdown>
 
 -	<a href="https://www.sparkfun.com/products/21255">
 	**5V Buck Regulator**<br>
@@ -158,7 +158,7 @@ To get started, users will need a few items. Now some users may have a few of th
 </div>
 
 
-<div class="grid cards" markdown>
+<div class="grid cards hide col-4" markdown>
 
 -   <a href="https://www.sparkfun.com/products/21255">
 	**Buck Regulator Breakout - 5V (AP63357DV)**<br>
@@ -318,7 +318,7 @@ To modify the [jumper](hardware_overview/#jumper "This feature is not available 
 </table>
 
 
-<div class="grid cards" markdown>
+<div class="grid cards hide col-4" markdown>
 
 -   <a href="https://www.sparkfun.com/products/9325">
 	**Solder Lead Free - 100-gram Spool**<br>
@@ -425,7 +425,7 @@ As a more sophisticated product, we will skip over the more fundamental tutorial
 </table>
 
 
-<div class="grid cards" markdown align="center">
+<div class="grid cards hide col-4" markdown align="center">
 
 -   <a href="https://learn.sparkfun.com/tutorials/72">
 	**Electric Power**

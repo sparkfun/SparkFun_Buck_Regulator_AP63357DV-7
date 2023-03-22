@@ -55,7 +55,7 @@ Users are provided with [PTH](https://en.wikipedia.org/wiki/Through-hole_technol
 </table>
 </center>
 
-<div class="grid cards" markdown>
+<div class="grid cards hide" markdown>
 
 -   <figure markdown>
 	[![](../img/hookup_guide/buck-power_pins.jpg)](../img/hookup_guide/buck-power_pins.jpg "Click to enlarge")
@@ -197,7 +197,7 @@ There is a high-voltage enable pin (`EN`) to control the output voltage *(i.e. o
 </table>
 </center>
 
-<div class="grid cards" markdown>
+<div class="grid cards hide" markdown>
 
 -   <figure markdown>
 	[![](../img/hookup_guide/buck-enable_pin.jpg)](../img/hookup_guide/buck-enable_pin.jpg "Click to enlarge")
@@ -259,7 +259,7 @@ Features:
 </table>
 </center>
 
-<div class="grid cards" markdown>
+<div class="grid cards hide" markdown>
 
 -   Features:
 
@@ -371,7 +371,7 @@ A platted copper pad is provided on the back of the boards, where users can add 
 </table>
 </center>
 
-<div class="grid cards" markdown>
+<div class="grid cards hide" markdown>
 
 -   <figure markdown>
 	[![](../img/hookup_guide/buck-heat_sink.jpg)](../img/hookup_guide/buck-heat_sink.jpg "Click to enlarge")

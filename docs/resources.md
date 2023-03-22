@@ -3,7 +3,7 @@
     * [5V BabyBuck Regulator](https://www.sparkfun.com/products/21256)
     * Board Files:
 
-        <section class="grid cards show" style="grid-template-columns: repeat(auto-fit,minmax(8rem,1fr));" markdown>
+<section class="grid cards col-3" style="grid-template-columns: repeat(auto-fit,minmax(8rem,1fr));" markdown>
 
         - ### Buck Regulator Breakout - 5V (AP63357)
 
