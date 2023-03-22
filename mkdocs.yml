@@ -134,6 +134,9 @@ theme:
 # Add the installation of any new plugins to the ./github/workflows/mkdocs.yml file also
 plugins:
   - search
+  - redirects:
+      redirect_maps:
+          'index.md': 'getting_started.md'
   # Add revision date
   - git-revision-date-localized:
       enable_creation_date: true
@@ -226,7 +229,7 @@ extra_javascript:
 # Configures webpage navigation
 nav:
   - Getting Started:
-    - Introduction: index.md
+    - Introduction: getting_started.md
     - Hardware Overview: hardware_overview.md
     - Hardware Assembly: hardware_assembly.md
     - Load Test: load_test.md
