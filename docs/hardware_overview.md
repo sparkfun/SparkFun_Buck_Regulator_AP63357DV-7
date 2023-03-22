@@ -16,9 +16,11 @@ The board dimensions are illustrated in the drawing below; the listed measuremen
 	For more information about the board's dimensions, users can download the [eagle files](../board_files/eagle_files.zip) for the board. These files can be opened in Eagle and additional measurements can be made with the dimensions tool.
 
 	??? info "Download Eagle for Free!"
-		Users can [download Eagle](https://www.autodesk.in/products/eagle/free-download) for free from AutoDesk.
-		
-		The program is free to use for hobbyists and students. However, it does require an account registration to utilize the software.
+		Eagle is a [CAD]("computer-aided design") program for electronics that is free to use for hobbyists and students. However, it does require an account registration to utilize the software.
+
+		<center>
+		[Download from<br>:autodesk-primary:{ .autodesk }](https://www.autodesk.com/products/eagle/free-download "Go to downloads page"){ .md-button .md-button--primary width="250px" }
+		</center>
 	
 	??? info "Dimensions Tool"
 		This video from Autodesk demonstrates how to utilize the dimensions tool in Eagle, to include additional measurements:
