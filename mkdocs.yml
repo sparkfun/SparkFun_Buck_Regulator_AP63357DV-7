@@ -157,7 +157,8 @@ plugins:
       cover_subtitle: none
       cover_logo: img/sfe_logo_sm.png
       exclude_pages: [ "hard_copy", "single_page", "github/file_issue", "github/contribute" ]
-      render_js: true
+      # render_js: true
+      # headless_chrome_path: headless-chromium
       output_path: board_files/hookup_guide.pdf
 
 
