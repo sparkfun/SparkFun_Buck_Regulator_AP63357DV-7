@@ -270,103 +270,106 @@ To get started, users will need a few items. Now some users may have a few of th
 
 
 
-## Jumper Modification
-??? note "New to jumper pads?"
-	Check out our [Jumper Pads and PCB Traces Tutorial](https://learn.sparkfun.com/tutorials/664) for a quick introduction!
-	<p align="center">
-		<a href="https://learn.sparkfun.com/tutorials/664">How to Work with Jumper Pads and PCB Traces<br>
-		<img src="https://cdn.sparkfun.com/c/264-148/assets/learn_tutorials/6/6/4/PCB_TraceCutLumenati.jpg"></a>
-	</p>
-
-To modify the [jumper](hardware_overview/#jumper "This feature is not available on the BabyBuck Regulator"), users will need [soldering equipment](https://www.sparkfun.com/categories/49) and/or a [hobby knife](https://www.sparkfun.com/categories/379).
-
-
-<table class="pdf">
-	<tr>
-		<td>
-			<a href="https://www.sparkfun.com/products/9325">
-				<center><img src="https://cdn.sparkfun.com/r/140-140/assets/parts/2/8/7/3/09325_9161-Solder_Lead_Free_-_100-gram_Spool-01.jpg" alt="Solder Lead Free - 100-gram Spool"></center>
-				<h3 class="title">Solder Lead Free - 100-gram Spool</h3>
-			</a>
-			TOL-09325
-		</td>
-		<td>
-			<a href="https://www.sparkfun.com/products/14228">
-				<center><img src="https://cdn.sparkfun.com/r/140-140/assets/parts/1/2/1/7/3/14228-01.jpg" alt="Weller WLC100 Soldering Station">
-				</center>
-				<h3 class="title">Weller WLC100 Soldering Station</h3>
-			</a>
-			TOL-14228
-		</td>
-		<td>
-			<a href="https://www.sparkfun.com/products/14579">
-				<center><img src="https://cdn.sparkfun.com/r/140-140/assets/parts/1/2/7/2/5/14579-Chip_Quik_No-Clean_Flux_Pen_-_10mL-01.jpg" alt="Chip Quik No-Clean Flux Pen - 10mL">
-				</center>
-				<h3 class="title">Chip Quik No-Clean Flux Pen - 10mL</h3>
-			</a>
-			TOL-14579
-		</td>
-		<td>
-			<a href="https://www.sparkfun.com/products/9200">
-				<center><img src="https://cdn.sparkfun.com/r/140-140/assets/parts/2/6/4/6/09200-Hobby_Knife-01.jpg" alt="Hobby Knife">
-				</center>
-				<h3 class="title">Hobby Knife</h3>
-			</a>
-			TOL-09200
-		</td>
-	</tr>
-</table>
-
-
-<div class="grid cards hide col-4" markdown>
-
--   <a href="https://www.sparkfun.com/products/9325">
-	**Solder Lead Free - 100-gram Spool**<br>
-	TOL-09325
-
-	---
-
-	<figure markdown>
-	![Solder Lead Free - 100-gram Spool](https://cdn.sparkfun.com/assets/parts/2/8/7/3/09325_9161-Solder_Lead_Free_-_100-gram_Spool-01.jpg)
-	</figure></a>
-
--   <a href="https://www.sparkfun.com/products/14228">
-	**Weller WLC100 Soldering Station**<br>
-	TOL-14228
-
-	---
-	
-	<figure markdown>
-	![Weller WLC100 Soldering Station](https://cdn.sparkfun.com/assets/parts/1/2/1/7/3/14228-01.jpg)
-	</figure></a>
-
-
--   <a href="https://www.sparkfun.com/products/14579">
-	**Chip Quik No-Clean Flux Pen - 10mL**<br>
-	TOL-14579
-
-	---
-
-	<figure markdown>
-	![Chip Quik No-Clean Flux Pen - 10mL](https://cdn.sparkfun.com/assets/parts/1/2/7/2/5/14579-Chip_Quik_No-Clean_Flux_Pen_-_10mL-01.jpg)
-	</figure></a>
-
-
--   <a href="https://www.sparkfun.com/products/9200">
-	**Hobby Knife**<br>
-	TOL-09200
-
-	---
-
-	<figure markdown>
-	![Hobby Knife](https://cdn.sparkfun.com/assets/parts/2/6/4/6/09200-Hobby_Knife-01.jpg)
-	</figure>
-	</a>
-</div>
-
-
+??? note "Jumper Modification"
+	!!! tip "New to jumper pads?"
+		Check out our [Jumper Pads and PCB Traces Tutorial](https://learn.sparkfun.com/tutorials/664) for a quick introduction!
+		<p align="center">
+			<a href="https://learn.sparkfun.com/tutorials/664">How to Work with Jumper Pads and PCB Traces<br>
+			<img src="https://cdn.sparkfun.com/c/264-148/assets/learn_tutorials/6/6/4/PCB_TraceCutLumenati.jpg" alt="Tutorial's thumbnail"></a>
+		</p>
 
 ## Suggested Reading
+	To modify the [jumper](hardware_overview/#jumper), users will need [soldering equipment](https://www.sparkfun.com/categories/49) and/or a [hobby knife](https://www.sparkfun.com/categories/379).
+
+
+	<table class="pdf">
+		<tr>
+			<td>
+				<a href="https://www.sparkfun.com/products/9325">
+					<center>
+					<img src="https://cdn.sparkfun.com/r/140-140/assets/parts/2/8/7/3/09325_9161-Solder_Lead_Free_-_100-gram_Spool-01.jpg" alt="Product image">
+					</center>
+					<h3 class="title">Solder Lead Free - 100-gram Spool</h3>
+				</a>
+				TOL-09325
+			</td>
+			<td>
+				<a href="https://www.sparkfun.com/products/14228">
+					<center>
+					<img src="https://cdn.sparkfun.com/r/140-140/assets/parts/1/2/1/7/3/14228-01.jpg" alt="Product image">
+					</center>
+					<h3 class="title">Weller WLC100 Soldering Station</h3>
+				</a>
+				TOL-14228
+			</td>
+			<td>
+				<a href="https://www.sparkfun.com/products/14579">
+					<center>
+					<img src="https://cdn.sparkfun.com/r/140-140/assets/parts/1/2/7/2/5/14579-Chip_Quik_No-Clean_Flux_Pen_-_10mL-01.jpg" alt="Product image">
+					</center>
+					<h3 class="title">Chip Quik No-Clean Flux Pen - 10mL</h3>
+				</a>
+				TOL-14579
+			</td>
+			<td>
+				<a href="https://www.sparkfun.com/products/9200">
+					<center>
+					<img src="https://cdn.sparkfun.com/r/140-140/assets/parts/2/6/4/6/09200-Hobby_Knife-01.jpg" alt="Product image">
+					</center>
+					<h3 class="title">Hobby Knife</h3>
+				</a>
+				TOL-09200
+			</td>
+		</tr>
+	</table>
+
+
+	<div class="grid cards hide col-4" markdown>
+
+	-   <a href="https://www.sparkfun.com/products/9325">
+		**Solder Lead Free - 100-gram Spool**<br>
+		TOL-09325
+
+		---
+
+		<figure markdown>
+		![Product image](https://cdn.sparkfun.com/assets/parts/2/8/7/3/09325_9161-Solder_Lead_Free_-_100-gram_Spool-01.jpg)
+		</figure></a>
+
+	-   <a href="https://www.sparkfun.com/products/14228">**Weller WLC100 Soldering Station**<br>
+		TOL-14228
+
+		---
+		
+		<figure markdown>
+		![Product image](https://cdn.sparkfun.com/assets/parts/1/2/1/7/3/14228-01.jpg)
+		</figure></a>
+
+
+	-   <a href="https://www.sparkfun.com/products/14579">
+		**Chip Quik No-Clean Flux Pen - 10mL**<br>
+		TOL-14579
+
+		---
+
+		<figure markdown>
+		![Product image](https://cdn.sparkfun.com/assets/parts/1/2/7/2/5/14579-Chip_Quik_No-Clean_Flux_Pen_-_10mL-01.jpg)
+		</figure></a>
+
+
+	-   <a href="https://www.sparkfun.com/products/9200">
+		**Hobby Knife**<br>
+		TOL-09200
+
+		---
+
+		<figure markdown>
+		![Product image](https://cdn.sparkfun.com/assets/parts/2/6/4/6/09200-Hobby_Knife-01.jpg)
+		</figure>
+		</a>
+	</div>
+
+
 
 As a more sophisticated product, we will skip over the more fundamental tutorials (i.e. [**Ohm's Law**](https://learn.sparkfun.com/tutorials/voltage-current-resistance-and-ohms-law) and [**What is Electricity?**](https://learn.sparkfun.com/tutorials/what-is-electricity)). However, below are a few tutorials that may help users familiarize themselves with various aspects of the board.
 
