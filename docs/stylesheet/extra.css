@@ -351,8 +351,14 @@
 /* Parameters for PDF Rendering                                                       */
 /* ================================================================================== */
 
-/* Hides elemments with <class="pdf"> on webpage (used for the generated PDF) */
+/* Hides elemments with <class="pdf">, <class="qr">, or <class="tinyqr"> on webpage (used for the generated PDF) */
 * + .pdf {
+  display: none;
+}
+.md-typeset *.qr {
+  display: none;
+}
+.md-typeset *.tinyqr {
   display: none;
 }
 
@@ -361,9 +367,19 @@
 }
 
 @media print {
-  /* Shows elements with <class="pdf"> on webpage (used for the generated PDF) */
+  /* Shows elements with <class="pdf">, <class="qr">, or <class="tinyqr"> on webpage (used for the generated PDF) */
   * + .pdf {
     display: contents;
+  }
+  .md-typeset *.qr {
+    display: inline-flex;
+    align-items: center;
+  }
+
+  .md-typeset *.tinyqr {
+    display: inline-flex;
+    vertical-align: middle;
+    width: 40px;
   }
 
   /* Removes borders on tables with <class="pdf"> */

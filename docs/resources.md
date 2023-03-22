@@ -50,3 +50,7 @@ Diodes Incorporated also provides great resources for the AP63357 Buck Regulator
 * [AP63357 Product Page](https://www.diodes.com/part/view/AP63357/)
     * [Technical Documentation](https://www.diodes.com/part/view/AP63357/#tab-details)
 * [Technical Support Page](https://www.diodes.com/about/contact-us/technical-support/)
+
+<center>
+![QR code to the hookup guide](../img/qr_code/hookup_guide.png){ .qr }
+</center>

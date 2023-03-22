@@ -31,7 +31,7 @@ These boards feature the AP63357 from [Diodes Inc.](https://www.diodes.com/), a 
 	The [Buck regulator breakout board](https://www.sparkfun.com/products/21255), has additional options for connecting input and output power. There is a pre-assembled screw terminal for a non-permanent connection and the option to solder on a [barrel jack](https://www.sparkfun.com/products/119) for an [external power supply](https://www.sparkfun.com/categories/308). The board also includes and red, power indication LED for when the power output is enabled.
 
 	<center>
-	[Purchase from SparkFun :fontawesome-solid-cart-plus:{ .heart }](https://www.sparkfun.com/products/21255){ .md-button .md-button--primary }
+	[![QR code to product page](../img/qr_code/product-21255.png){ .tinyqr }&nbsp;&nbsp;&nbsp;Purchase from SparkFun :fontawesome-solid-cart-plus:{ .heart }](https://www.sparkfun.com/products/21255){ .md-button .md-button--primary }
 	</center>
 
 -	<a href="https://www.sparkfun.com/products/21256">
@@ -47,7 +47,7 @@ These boards feature the AP63357 from [Diodes Inc.](https://www.diodes.com/), a 
 	Unlike its sibling, the [BabyBuck](https://www.sparkfun.com/products/21256) is a minimalistic board that sacrifices the connection options for space. Don't worry, though, because the PTH pins are still available to connect the input and output power. All of this snuggled up in a low-profile, .63" x .52" board.
 
 	<center>
-	[Purchase from SparkFun :fontawesome-solid-cart-plus:{ .heart }](https://www.sparkfun.com/products/21256){ .md-button .md-button--primary }
+	[![QR code to product page](../img/qr_code/product-21256.png){ .tinyqr }&nbsp;&nbsp;&nbsp;Purchase from SparkFun :fontawesome-solid-cart-plus:{ .heart }](https://www.sparkfun.com/products/21256){ .md-button .md-button--primary }
 	</center>
 
 </section>

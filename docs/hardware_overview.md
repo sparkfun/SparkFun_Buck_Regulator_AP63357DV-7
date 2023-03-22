@@ -33,6 +33,7 @@ The board dimensions are illustrated in the drawing below; the listed measuremen
 		<div class="video">
 		<iframe src="https://www.youtube.com/embed/dZLNd1FtNB8" title="EAGLE Dimension Tool" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		</div>
+		![QR code to play video](../img/qr_code/dimension_tool.png){ .qr }
 		</center>
 
 
