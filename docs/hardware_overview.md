@@ -26,7 +26,7 @@ The board dimensions are illustrated in the drawing below; the listed measuremen
 		[Download from<br>:autodesk-primary:{ .autodesk }](https://www.autodesk.com/products/eagle/free-download "Go to downloads page"){ .md-button .md-button--primary width="250px" }
 		</center>
 	
-	??? info "Dimensions Tool"
+	??? info ":straight_ruler: Dimensions Tool"
 		This video from Autodesk demonstrates how to utilize the dimensions tool in Eagle, to include additional measurements:
 
 		<center>

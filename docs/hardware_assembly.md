@@ -7,7 +7,7 @@ icon: material/tools
 	Please handle these boards with the utmost caution. Users can easily burn themselves when the board outputs anything over 2A. 
 
 
-## Headers
+## :material-soldering-iron:&nbsp;Headers
 
 ??? note "New to soldering?"
 	If you have never soldered before or need a quick refresher, check out our [How to Solder: Through-Hole Soldering](https://learn.sparkfun.com/tutorials/how-to-solder-through-hole-soldering) guide.
@@ -77,7 +77,7 @@ The pins for the SparkFun **5V** Buck Regulator Breakout boards are broken out t
 </div>
 
 
-## Hookup Wire
+## :material-soldering-iron:&nbsp;Hookup Wire
 ??? note "New to soldering?"
 	If you have never soldered before or need a quick refresher, check out our [How to Solder: Through-Hole Soldering](https://learn.sparkfun.com/tutorials/how-to-solder-through-hole-soldering) guide.
 	<p align="center">
@@ -128,7 +128,7 @@ Users can also solder their wire connections directly to the pins of the SparkFu
 !!! info  "Buck Regulator *(only)*"
 	!!! warning "The following features are only available on the Buck Regulator and are <u>not</u> available on BabyBuck Regulator."
 
-	=== "Barrel Jack PTH"
+	=== ":material-soldering-iron:&nbsp;Barrel Jack PTH"
 		??? note "New to soldering?"
 			If you have never soldered before or need a quick refresher, check out our [How to Solder: Through-Hole Soldering](https://learn.sparkfun.com/tutorials/how-to-solder-through-hole-soldering) guide.
 			<p align="center">
