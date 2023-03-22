@@ -92,7 +92,7 @@ theme:
         icon: material/weather-night
         name: Switch to light mode    
 
-  # Configures icons of callout boxes
+  # Configures icons
   icon:
     # Sets repo icon to GitHub icon
     repo: fontawesome/brands/github
@@ -101,7 +101,7 @@ theme:
     edit: material/file-document-edit-outline
     # view: material/file-code-outline
 
-    # Admonition Icons
+    # Admonition Icons (callout boxes)
     admonition:
       note: octicons/tag-16
       abstract: octicons/checklist-16
@@ -126,7 +126,7 @@ theme:
       # Permalink icon
       link: octicons/link-16
 
-  # Adds PDF icon to download hookup guide
+  # Adds overrides for stylesheets, html, etc.
   custom_dir: overrides
 
 
@@ -199,8 +199,9 @@ markdown_extensions:
       # Chain: &#x26D3; ⛓
 
 
-# Configures social icons in the footer
+
 extra:
+  # Configures social icons in the footer
   social:
     - icon: sfe-logo
       link: https://www.sparkfun.com/products/21255
