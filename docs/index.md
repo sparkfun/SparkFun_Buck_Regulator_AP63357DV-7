@@ -14,13 +14,15 @@ These boards feature the AP63357 from [Diodes Inc.](https://www.diodes.com/), a 
 
 <section class="grid cards show" style="grid-template-columns: repeat(auto-fit,minmax(8rem,1fr));" markdown>
 
--	[5V Buck Regulator (COM-21255)](https://www.sparkfun.com/products/21255)
+-	<a href="https://www.sparkfun.com/products/21255">
+	**5V Buck Regulator**<br>
+	**SKU:** COM-21255
 
 	---
 
 	<figure markdown>
-	[![SparkFun Buck Regulator Breakout - 5V (AP63357DV)](https://cdn.sparkfun.com/r/500-500/assets/parts/2/1/0/2/1/21255-_COM_SparkFun_Buck_Regulator_Breakout-_01.jpg)](https://cdn.sparkfun.com/assets/parts/2/1/0/2/1/21255-_COM_SparkFun_Buck_Regulator_Breakout-_01.jpg)
-	</figure>
+	![Product image](https://cdn.sparkfun.com/r/500-500/assets/parts/2/1/0/2/1/21255-_COM_SparkFun_Buck_Regulator_Breakout-_01.jpg)
+	</figure></a>
 
 	The [Buck regulator breakout board](https://www.sparkfun.com/products/21255), has additional options for connecting input and output power. There is a pre-assembled screw terminal for a non-permanent connection and the option to solder on a [barrel jack](https://www.sparkfun.com/products/119) for an [external power supply](https://www.sparkfun.com/categories/308). The board also includes and red, power indication LED for when the power output is enabled.
 
@@ -28,13 +30,15 @@ These boards feature the AP63357 from [Diodes Inc.](https://www.diodes.com/), a 
 	[Purchase from SparkFun :fontawesome-solid-cart-plus:](https://www.sparkfun.com/products/21255){ .md-button .md-button--primary }
 	</center>
 
--	[5V BabyBuck Regulator (COM-21256)](https://www.sparkfun.com/products/21256)
+-	<a href="https://www.sparkfun.com/products/21256">
+	**5V BabyBuck Regulator**<br>
+	**SKU:** COM-21256
 
 	---
 
 	<figure markdown>
-	[![SparkFun BabyBuck Regulator Breakout - 5V (AP63357DV)](https://cdn.sparkfun.com/r/500-500/assets/parts/2/1/0/2/2/21256-_COM_SparkFun_BabyBuck_Regulator_Breakout-_01.jpg)](https://cdn.sparkfun.com/assets/parts/2/1/0/2/2/21256-_COM_SparkFun_BabyBuck_Regulator_Breakout-_01.jpg)
-	</figure>
+	![Product image](https://cdn.sparkfun.com/r/500-500/assets/parts/2/1/0/2/2/21256-_COM_SparkFun_BabyBuck_Regulator_Breakout-_01.jpg)
+	</figure></a>
 
 	Unlike its sibling, the [BabyBuck](https://www.sparkfun.com/products/21256) is a minimalistic board that sacrifices the connection options for space. Don't worry, though, because the PTH pins are still available to connect the input and output power. All of this snuggled up in a low-profile, .63" x .52" board.
 
