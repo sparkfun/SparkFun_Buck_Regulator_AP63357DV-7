@@ -91,14 +91,17 @@ To get started, users will need a few items. Now some users may already have a f
 		</td>
 		<td>
 			<a href="https://www.sparkfun.com/products/18704">
-				<center><img src="https://cdn.sparkfun.com/r/140-140/assets/parts/1/8/2/3/7/18704-1.jpg" alt="Heatsink - 13.20 x 12.10 mm (Copper)"></center>
+				<center>
+				<img src="https://cdn.sparkfun.com/r/140-140/assets/parts/1/8/2/3/7/18704-1.jpg" alt="Product image">
+				</center>
 				<h3 class="title">Heatsink - 13.20 x 12.10 mm (Copper)</h3>
 			</a>
 			PRT-18704
 		</td>
 		<td>
 			<a href="https://www.sparkfun.com/products/17054">
-				<center><img src="https://cdn.sparkfun.com/r/140-140/assets/parts/1/6/0/0/0/17054-Thermal_Tape_4x4in._Square-01.jpg" alt="Thermal Tape 4x4" Square">
+				<center>
+				<img src="https://cdn.sparkfun.com/r/140-140/assets/parts/1/6/0/0/0/17054-Thermal_Tape_4x4in._Square-01.jpg" alt="Product image">
 				</center>
 				<h3 class="title">Thermal Tape 4x4" Square</h3>
 			</a>
@@ -108,7 +111,8 @@ To get started, users will need a few items. Now some users may already have a f
 	<tr>
 		<td>
 			<a href="https://www.sparkfun.com/products/14681">
-				<center><img src="https://cdn.sparkfun.com/r/140-140/assets/parts/1/2/8/8/3/14681-SparkFun_Beginner_Tool_Kit.jpg" alt="SparkFun Beginner Tool Kit">
+				<center>
+				<img src="https://cdn.sparkfun.com/r/140-140/assets/parts/1/2/8/8/3/14681-SparkFun_Beginner_Tool_Kit.jpg" alt="Product image">
 				</center>
 				<h3 class="title">SparkFun Beginner Tool Kit</h3>
 			</a>
@@ -116,21 +120,27 @@ To get started, users will need a few items. Now some users may already have a f
 		</td>
 		<td>
 			<a href="https://www.sparkfun.com/products/11367">
-				<center><img src="https://cdn.sparkfun.com/r/140-140/assets/parts/7/1/0/8/11367-Hook-Up_Wire_-_Assortment__Solid_Core__22_AWG_-01.jpg" alt="Hook-Up Wire - Assortment (Solid Core, 22 AWG)"></center>
+				<center>
+				<img src="https://cdn.sparkfun.com/r/140-140/assets/parts/7/1/0/8/11367-Hook-Up_Wire_-_Assortment__Solid_Core__22_AWG_-01.jpg" alt="Product image">
+				</center>
 				<h3 class="title">Hook-Up Wire - Assortment (Solid Core, 22 AWG)</h3>
 			</a>
 			PRT-11367
 		</td>
 		<td>
 			<a href="https://www.sparkfun.com/products/116">
-				<center><img src="https://cdn.sparkfun.com/r/140-140/assets/parts/1/0/6/00116-02-L.jpg" alt="Break Away Headers - Straight"></center>
+				<center>
+				<img src="https://cdn.sparkfun.com/r/140-140/assets/parts/1/0/6/00116-02-L.jpg" alt="Product image">
+				</center>
 				<h3 class="title">Break Away Headers - Straight</h3>
 			</a>
 			PRT-00116
 		</td>
 		<td>
 			<a href="https://www.sparkfun.com/products/119">
-				<center><img src="https://cdn.sparkfun.com/r/140-140/assets/parts/1/0/8/00119-03-L.jpg" alt="DC Barrel Power Jack/Connector"></center>
+				<center>
+				<img src="https://cdn.sparkfun.com/r/140-140/assets/parts/1/0/8/00119-03-L.jpg" alt="Product image">
+				</center>
 				<h3 class="title">DC Barrel Power Jack/Connector</h3>
 			</a>
 			PRT-00119
@@ -139,7 +149,8 @@ To get started, users will need a few items. Now some users may already have a f
     <tr>
 		<td>
 			<a href="https://www.sparkfun.com/products/12891">
-				<center><img src="https://cdn.sparkfun.com/r/140-140/assets/parts/9/7/8/3/12891-01.jpg" alt="Pocket Screwdriver Set">
+				<center>
+				<img src="https://cdn.sparkfun.com/r/140-140/assets/parts/9/7/8/3/12891-01.jpg" alt="Product image">
 				</center>
 				<h3 class="title">Pocket Screwdriver Set</h3>
 			</a>
@@ -153,7 +164,7 @@ To get started, users will need a few items. Now some users may already have a f
 	Check out our [Through-Hole Soldering Tutorial](https://learn.sparkfun.com/tutorials/5) for a quick introduction!
 	<p align="center">
 		<a href="https://learn.sparkfun.com/tutorials/5">How to Solder: Through-Hole Soldering<br>
-		<img src="https://cdn.sparkfun.com/c/264-148/assets/e/3/9/9/4/51d9fbe1ce395f7a2a000000.jpg"></a>
+		<img src="https://cdn.sparkfun.com/c/264-148/assets/e/3/9/9/4/51d9fbe1ce395f7a2a000000.jpg" alt="Tutorial's thumbnail"></a>
 	</p>
 </div>
 
@@ -187,7 +198,7 @@ To get started, users will need a few items. Now some users may already have a f
 	---
 
 	<figure markdown>
-	![Heatsink - 13.20 x 12.10 mm (Copper)](https://cdn.sparkfun.com/assets/parts/1/8/2/3/7/18704-1.jpg)
+	![Product image](https://cdn.sparkfun.com/assets/parts/1/8/2/3/7/18704-1.jpg)
 	</figure></a>
 
 	!!! tip "Fits both boards"
@@ -200,9 +211,8 @@ To get started, users will need a few items. Now some users may already have a f
 	---
 
 	<figure markdown>
-	![Thermal Tape 4x4" Square](https://cdn.sparkfun.com/assets/parts/1/6/0/0/0/17054-Thermal_Tape_4x4in._Square-01.jpg)
-	</figure>
-	</a>
+	![Product image](https://cdn.sparkfun.com/assets/parts/1/6/0/0/0/17054-Thermal_Tape_4x4in._Square-01.jpg)
+	</figure></a>
 
 -   <a href="https://www.sparkfun.com/products/14681">
 	**SparkFun Beginner Tool Kit**<br>
@@ -211,16 +221,16 @@ To get started, users will need a few items. Now some users may already have a f
 	---
 
 	<figure markdown>
-	![SparkFun Beginner Tool Kit](https://cdn.sparkfun.com/assets/parts/1/2/8/8/3/14681-SparkFun_Beginner_Tool_Kit.jpg)
-	</figure>
-	</a>
+	![Product image](https://cdn.sparkfun.com/assets/parts/1/2/8/8/3/14681-SparkFun_Beginner_Tool_Kit.jpg)
+	</figure></a>
 
 	??? note "New to soldering?"
 		Check out our [Through-Hole Soldering Tutorial](https://learn.sparkfun.com/tutorials/5) for a quick introduction!
 		<p align="center">
 			<a href="https://learn.sparkfun.com/tutorials/5">How to Solder: Through-Hole Soldering<br>
-			<img src="https://cdn.sparkfun.com/c/264-148/assets/e/3/9/9/4/51d9fbe1ce395f7a2a000000.jpg"></a>
+			<img src="https://cdn.sparkfun.com/c/264-148/assets/e/3/9/9/4/51d9fbe1ce395f7a2a000000.jpg" alt="Tutorial's thumbnail"></a>
 		</p>
+
 
 -   <a href="https://www.sparkfun.com/products/11367">
 	**Hook-Up Wire - Assortment (Solid Core, 22 AWG)**<br>
@@ -229,7 +239,7 @@ To get started, users will need a few items. Now some users may already have a f
 	---
 
 	<figure markdown>
-	![Hook-Up Wire - Assortment (Solid Core, 22 AWG)](https://cdn.sparkfun.com/assets/parts/7/1/0/8/11367-Hook-Up_Wire_-_Assortment__Solid_Core__22_AWG_-01.jpg)
+	![Product image](https://cdn.sparkfun.com/assets/parts/7/1/0/8/11367-Hook-Up_Wire_-_Assortment__Solid_Core__22_AWG_-01.jpg)
 	</figure>
 	</a>
 
@@ -240,7 +250,7 @@ To get started, users will need a few items. Now some users may already have a f
 	---
 
 	<figure markdown>
-	![Break Away Headers - Straight](https://cdn.sparkfun.com/assets/parts/1/0/6/00116-02-L.jpg)
+	![Product image](https://cdn.sparkfun.com/assets/parts/1/0/6/00116-02-L.jpg)
 	</figure>
 	</a>
 
@@ -251,7 +261,7 @@ To get started, users will need a few items. Now some users may already have a f
 	---
 
 	<figure markdown>
-	![DC Barrel Power Jack/Connector](https://cdn.sparkfun.com/assets/parts/1/0/8/00119-03-L.jpg)
+	![Product image](https://cdn.sparkfun.com/assets/parts/1/0/8/00119-03-L.jpg)
 	</figure>
 	</a>
 
@@ -262,7 +272,7 @@ To get started, users will need a few items. Now some users may already have a f
 	---
 
 	<figure markdown>
-	![Pocket Screwdriver Set](https://cdn.sparkfun.com/assets/parts/9/7/8/3/12891-01.jpg)
+	![Product image](https://cdn.sparkfun.com/assets/parts/9/7/8/3/12891-01.jpg)
 	</figure>
 	</a>
 
@@ -419,11 +429,11 @@ As a more sophisticated product, we will skip over the more fundamental tutorial
 		</td>
 		<td align="center">
 			<a href="https://learn.sparkfun.com/tutorials/5">How to Solder: Through-Hole Soldering<br>
-			<img src="https://cdn.sparkfun.com/c/264-148/assets/e/3/9/9/4/51d9fbe1ce395f7a2a000000.jpg"></a>
+			<img src="https://cdn.sparkfun.com/c/264-148/assets/e/3/9/9/4/51d9fbe1ce395f7a2a000000.jpg" alt="Tutorial's thumbnail"></a>
 		</td>
 		<td align="center">
 			<a href="https://learn.sparkfun.com/tutorials/664">How to Work with Jumper Pads and PCB Traces<br>
-			<img src="https://cdn.sparkfun.com/c/264-148/assets/learn_tutorials/6/6/4/PCB_TraceCutLumenati.jpg"></a>
+			<img src="https://cdn.sparkfun.com/c/264-148/assets/learn_tutorials/6/6/4/PCB_TraceCutLumenati.jpg" alt="Tutorial's thumbnail"></a>
 		</td>
 	</tr>
 </table>
@@ -530,4 +540,4 @@ As a more sophisticated product, we will skip over the more fundamental tutorial
 	![How to Work with Jumper Pads and PCB Traces](https://cdn.sparkfun.com/c/264-148/assets/learn_tutorials/6/6/4/PCB_TraceCutLumenati.jpg)
 	</figure></a>
 
-</div></div>
+</div>
