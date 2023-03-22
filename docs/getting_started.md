@@ -160,7 +160,8 @@ To get started, users will need a few items. Now some users may have a few of th
 
 <div class="grid cards" markdown>
 
--   <a href="https://www.sparkfun.com/products/21255">**Buck Regulator Breakout - 5V (AP63357DV)**<br>
+-   <a href="https://www.sparkfun.com/products/21255">
+	**Buck Regulator Breakout - 5V (AP63357DV)**<br>
 	COM-21255
 
 	---
@@ -169,7 +170,8 @@ To get started, users will need a few items. Now some users may have a few of th
 	![SparkFun Buck Regulator Breakout - 5V (AP63357DV)](https://cdn.sparkfun.com/assets/parts/2/1/0/2/1/21255-_COM_SparkFun_Buck_Regulator_Breakout-_01.jpg)
 	</figure></a>
 
--   <a href="https://www.sparkfun.com/products/21256">**BabyBuck Regulator Breakout - 5V (AP63357DV)**<br>
+-   <a href="https://www.sparkfun.com/products/21256">
+	**BabyBuck Regulator Breakout - 5V (AP63357DV)**<br>
 	COM-21256
 
 	---
@@ -178,7 +180,8 @@ To get started, users will need a few items. Now some users may have a few of th
 	![SparkFun BabyBuck Regulator Breakout - 5V (AP63357DV)](https://cdn.sparkfun.com/assets/parts/2/1/0/2/2/21256-_COM_SparkFun_BabyBuck_Regulator_Breakout-_01.jpg)
 	</figure></a>
 
--   <a href="https://www.sparkfun.com/products/18704">**Heatsink - 13.20 x 12.10 mm (Copper)**<br>
+-   <a href="https://www.sparkfun.com/products/18704">
+	**Heatsink - 13.20 x 12.10 mm (Copper)**<br>
 	PRT-18704
 
 	---
@@ -190,7 +193,8 @@ To get started, users will need a few items. Now some users may have a few of th
 	!!! tip "Fits both boards."
 	!!! info "Thermal tape is included."
 
--   <a href="https://www.sparkfun.com/products/17054">**Thermal Tape 4x4" Square**<br>
+-   <a href="https://www.sparkfun.com/products/17054">
+	**Thermal Tape 4x4" Square**<br>
 	PRT-17054
 
 	---
@@ -200,7 +204,8 @@ To get started, users will need a few items. Now some users may have a few of th
 	</figure>
 	</a>
 
--   <a href="https://www.sparkfun.com/products/14681">**SparkFun Beginner Tool Kit**<br>
+-   <a href="https://www.sparkfun.com/products/14681">
+	**SparkFun Beginner Tool Kit**<br>
 	TOL-14681
 
 	---
@@ -217,7 +222,8 @@ To get started, users will need a few items. Now some users may have a few of th
 			<img src="https://cdn.sparkfun.com/c/264-148/assets/e/3/9/9/4/51d9fbe1ce395f7a2a000000.jpg"></a>
 		</p>
 
--   <a href="https://www.sparkfun.com/products/11367">**Hook-Up Wire - Assortment (Solid Core, 22 AWG)**<br>
+-   <a href="https://www.sparkfun.com/products/11367">
+	**Hook-Up Wire - Assortment (Solid Core, 22 AWG)**<br>
 	PRT-11367
 
 	---
@@ -227,7 +233,8 @@ To get started, users will need a few items. Now some users may have a few of th
 	</figure>
 	</a>
 
--   <a href="https://www.sparkfun.com/products/116">**Break Away Headers - Straight**<br>
+-   <a href="https://www.sparkfun.com/products/116">
+	**Break Away Headers - Straight**<br>
 	PRT-00116
 
 	---
@@ -237,7 +244,8 @@ To get started, users will need a few items. Now some users may have a few of th
 	</figure>
 	</a>
 
--   <a href="https://www.sparkfun.com/products/119">**DC Barrel Power Jack/Connector**<br>
+-   <a href="https://www.sparkfun.com/products/119">
+	**DC Barrel Power Jack/Connector**<br>
 	PRT-00119
 
 	---
@@ -247,7 +255,8 @@ To get started, users will need a few items. Now some users may have a few of th
 	</figure>
 	</a>
 
--   <a href="https://www.sparkfun.com/products/12891">**Pocket Screwdriver Set**<br>
+-   <a href="https://www.sparkfun.com/products/12891">
+	**Pocket Screwdriver Set**<br>
 	TOL-12891
 
 	---
@@ -311,7 +320,8 @@ To modify the [jumper](hardware_overview/#jumper "This feature is not available 
 
 <div class="grid cards" markdown>
 
--   <a href="https://www.sparkfun.com/products/9325">**Solder Lead Free - 100-gram Spool**<br>
+-   <a href="https://www.sparkfun.com/products/9325">
+	**Solder Lead Free - 100-gram Spool**<br>
 	TOL-09325
 
 	---
@@ -320,7 +330,8 @@ To modify the [jumper](hardware_overview/#jumper "This feature is not available 
 	![Solder Lead Free - 100-gram Spool](https://cdn.sparkfun.com/assets/parts/2/8/7/3/09325_9161-Solder_Lead_Free_-_100-gram_Spool-01.jpg)
 	</figure></a>
 
--   <a href="https://www.sparkfun.com/products/14228">**Weller WLC100 Soldering Station**<br>
+-   <a href="https://www.sparkfun.com/products/14228">
+	**Weller WLC100 Soldering Station**<br>
 	TOL-14228
 
 	---
@@ -330,7 +341,8 @@ To modify the [jumper](hardware_overview/#jumper "This feature is not available 
 	</figure></a>
 
 
--   <a href="https://www.sparkfun.com/products/14579">**Chip Quik No-Clean Flux Pen - 10mL**<br>
+-   <a href="https://www.sparkfun.com/products/14579">
+	**Chip Quik No-Clean Flux Pen - 10mL**<br>
 	TOL-14579
 
 	---
@@ -340,7 +352,8 @@ To modify the [jumper](hardware_overview/#jumper "This feature is not available 
 	</figure></a>
 
 
--   <a href="https://www.sparkfun.com/products/9200">**Hobby Knife**<br>
+-   <a href="https://www.sparkfun.com/products/9200">
+	**Hobby Knife**<br>
 	TOL-09200
 
 	---
@@ -414,7 +427,8 @@ As a more sophisticated product, we will skip over the more fundamental tutorial
 
 <div class="grid cards" markdown align="center">
 
--   <a href="https://learn.sparkfun.com/tutorials/72">**Electric Power**
+-   <a href="https://learn.sparkfun.com/tutorials/72">
+	**Electric Power**
 
 	---
 	
@@ -422,7 +436,8 @@ As a more sophisticated product, we will skip over the more fundamental tutorial
 	![Electric Power](https://cdn.sparkfun.com/c/264-148/assets/learn_tutorials/7/2/PowerThumb.jpg)
 	</figure></a>
 
--   <a href="https://learn.sparkfun.com/tutorials/18">**Connector Basics**
+-   <a href="https://learn.sparkfun.com/tutorials/18">
+	**Connector Basics**
 
 	---
 	
@@ -430,7 +445,8 @@ As a more sophisticated product, we will skip over the more fundamental tutorial
 	![Connector Basics](https://cdn.sparkfun.com/c/264-148/assets/c/d/6/9/4/511421f8ce395f687e000007.jpg)
 	</figure></a>
 
--   <a href="https://learn.sparkfun.com/tutorials/41">**Working with Wire**
+-   <a href="https://learn.sparkfun.com/tutorials/41">
+	**Working with Wire**
 
 	---
 	
@@ -438,7 +454,8 @@ As a more sophisticated product, we will skip over the more fundamental tutorial
 	![Working with Wire](https://cdn.sparkfun.com/c/264-148/assets/0/5/0/0/f/5138de3cce395fbb1b000002.JPG)
 	</figure></a>
 
--   <a href="https://learn.sparkfun.com/tutorials/36">**How to Power a Project**
+-   <a href="https://learn.sparkfun.com/tutorials/36">
+	**How to Power a Project**
 
 	---
 	
@@ -446,7 +463,8 @@ As a more sophisticated product, we will skip over the more fundamental tutorial
 	![IHow to Power a Project](https://cdn.sparkfun.com/c/264-148/assets/learn_tutorials/3/6/Bench_Power_Supply.jpg)
 	</figure></a>
 
--   <a href="https://learn.sparkfun.com/tutorials/26">**What is a Circuit?**
+-   <a href="https://learn.sparkfun.com/tutorials/26">
+	**What is a Circuit?**
 
 	---
 	
@@ -454,7 +472,8 @@ As a more sophisticated product, we will skip over the more fundamental tutorial
 	![What is a Circuit?](https://cdn.sparkfun.com/c/264-148/assets/learn_tutorials/2/6/Concept_Tutorial_Images-03.jpg)
 	</figure></a>
 
--   <a href="https://learn.sparkfun.com/tutorials/115">**Alternating Current (AC) vs. Direct Current (DC)**
+-   <a href="https://learn.sparkfun.com/tutorials/115">
+	**Alternating Current (AC) vs. Direct Current (DC)**
 
 	---
 	
@@ -462,7 +481,8 @@ As a more sophisticated product, we will skip over the more fundamental tutorial
 	![Alternating Current (AC) vs. Direct Current (DC)](https://cdn.sparkfun.com/c/264-148/assets/learn_tutorials/1/1/5/acDC.jpg)
 	</figure></a>
 
--   <a href="https://learn.sparkfun.com/tutorials/75">**Polarity**
+-   <a href="https://learn.sparkfun.com/tutorials/75">
+	**Polarity**
 
 	---
 	
@@ -470,7 +490,8 @@ As a more sophisticated product, we will skip over the more fundamental tutorial
 	![Polarity](https://cdn.sparkfun.com/c/264-148/assets/5/4/1/e/0/5193d2adce395f3d7a000001.jpg)
 	</figure></a>
 
--   <a href="https://learn.sparkfun.com/tutorials/62">**Logic Levels**
+-   <a href="https://learn.sparkfun.com/tutorials/62">
+	**Logic Levels**
 
 	---
 	
@@ -478,7 +499,8 @@ As a more sophisticated product, we will skip over the more fundamental tutorial
 	![Logic Levels](https://cdn.sparkfun.com/c/264-148/assets/learn_tutorials/6/2/Input_Output_Logic_Level_Tolerances_tutorial_tile.png)
 	</figure></a>
 
--   <a href="https://learn.sparkfun.com/tutorials/1890">**Buck Regulator Hookup Guide**
+-   <a href="https://learn.sparkfun.com/tutorials/1890">
+	**Buck Regulator Hookup Guide**
 
 	---
 
@@ -486,7 +508,8 @@ As a more sophisticated product, we will skip over the more fundamental tutorial
 	![Buck Regulator Hookup Guide](https://cdn.sparkfun.com/c/264-148/assets/learn_tutorials/1/8/9/0/Thumbnail.png)
 	</figure></a>
 
--   <a href="https://learn.sparkfun.com/tutorials/5">**How to Solder: Through-Hole Soldering**
+-   <a href="https://learn.sparkfun.com/tutorials/5">
+	**How to Solder: Through-Hole Soldering**
 
 	---
 	
@@ -494,7 +517,8 @@ As a more sophisticated product, we will skip over the more fundamental tutorial
 	![How to Solder: Through-Hole Soldering](https://cdn.sparkfun.com/c/264-148/assets/e/3/9/9/4/51d9fbe1ce395f7a2a000000.jpg)
 	</figure></a>
 
--   <a href="https://learn.sparkfun.com/tutorials/664">**How to Work with Jumper Pads and PCB Traces**
+-   <a href="https://learn.sparkfun.com/tutorials/664">
+	**How to Work with Jumper Pads and PCB Traces**
 
 	---
 	
