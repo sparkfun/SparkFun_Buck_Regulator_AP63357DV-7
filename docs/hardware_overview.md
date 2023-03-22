@@ -15,7 +15,7 @@ The board dimensions are illustrated in the drawing below; the listed measuremen
 ??? tip "Need more measurements?"
 	For more information about the board's dimensions, users can download the [eagle files](../board_files/eagle_files.zip) for the board. These files can be opened in Eagle and additional measurements can be made with the dimensions tool.
 
-	??? info "Download Eagle for Free!"
+	??? info ":octicons-download-16:{ .heart } Eagle - Free Download!"
 		Eagle is a [CAD]("computer-aided design") program for electronics that is free to use for hobbyists and students. However, it does require an account registration to utilize the software.
 
 		<center>
