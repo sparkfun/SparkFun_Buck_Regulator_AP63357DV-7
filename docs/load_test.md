@@ -16,8 +16,8 @@ To test the buck regulator boards, users will need the following hardware:
 * DC Electric Load Tester
 	* We are using the [SparkFun Variable Load Kit](https://www.sparkfun.com/products/14449)
 * Power Supply
-	* Use a benchtop-style power supply where you can configure the output voltage and see the current draw when loaded.
-	* We are using the [80W DC Power Supply](https://www.sparkfun.com/products/retired/9291) *(retired product)*	
+    * Use a benchtop-style power supply where you can configure the output voltage and see the current draw when loaded.
+	* We are using the [80W DC Power Supply](https://www.sparkfun.com/products/retired/9291) *(retired product)*
 
 
 <table class="pdf">

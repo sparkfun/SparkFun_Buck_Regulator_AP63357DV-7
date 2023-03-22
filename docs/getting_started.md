@@ -53,8 +53,8 @@ These boards feature the AP63357 from [Diodes Inc.](https://www.diodes.com/), a 
 </section>
 
 
-To get started, users will need a few items. Now some users may have a few of these items, feel free to modify your cart accordingly. For users just getting started with electronics, we have linked a few tutorials to establish a foundation of knowledge to follow along with this hookup guide.
 ## :fontawesome-solid-list-check:&nbsp;Required Materials
+To get started, users will need a few items. Now some users may already have a few of these items, feel free to modify your cart accordingly. For users just getting started with electronics, we have linked a few tutorials to establish a foundation of knowledge to follow along with this hookup guide.
 
 * [SparkFun Buck Regulator Breakout - 5V (AP63357DV)](https://www.sparkfun.com/products/21255)
 * [Heat Sink](https://www.sparkfun.com/products/18704 "Thermal tape is included") - Used to help dissipate excess heat
@@ -65,10 +65,10 @@ To get started, users will need a few items. Now some users may have a few of th
 
 	1.	Check out the beginner tool kit below; otherwise, click here for a full selection of our available [soldering tools](https://www.sparkfun.com/categories/49).
 
-* [Hookup Wire](https://www.sparkfun.com/categories/141 "Click here for a full selection of our available wires.") - May be used to connect the external power or power output
-* [Headers](https://www.sparkfun.com/categories/381 "Click here for a full selection of our available headers.")  - May be used to connect the external power or power output
+* [Hookup Wire](https://www.sparkfun.com/categories/141 "Click here for a full selection of our available wires") - May be used to connect the external power or power output
+* [Headers](https://www.sparkfun.com/categories/381 "Click here for a full selection of our available headers")  - May be used to connect the external power or power output
 * [DC Barrel Jack Adapter](https://www.sparkfun.com/products/119) - *(Optional - Not necessary for the BabyBuck Regulator)*
-* [Small Flathead Screw Driver](https://www.sparkfun.com/categories/376 "Click here for a full selection of our available screwdrivers.")  - *(Optional - Not necessary for the BabyBuck Regulator)*
+* [Small Flathead Screw Driver](https://www.sparkfun.com/categories/376 "Click here for a full selection of our available screwdrivers")  - *(Optional - Not necessary for the BabyBuck Regulator)*
 
 
 <table class="pdf">
@@ -190,8 +190,8 @@ To get started, users will need a few items. Now some users may have a few of th
 	![Heatsink - 13.20 x 12.10 mm (Copper)](https://cdn.sparkfun.com/assets/parts/1/8/2/3/7/18704-1.jpg)
 	</figure></a>
 
-	!!! tip "Fits both boards."
-	!!! info "Thermal tape is included."
+	!!! tip "Fits both boards"
+	!!! info "Thermal tape is included"
 
 -   <a href="https://www.sparkfun.com/products/17054">
 	**Thermal Tape 4x4" Square**<br>
@@ -530,4 +530,4 @@ As a more sophisticated product, we will skip over the more fundamental tutorial
 	![How to Work with Jumper Pads and PCB Traces](https://cdn.sparkfun.com/c/264-148/assets/learn_tutorials/6/6/4/PCB_TraceCutLumenati.jpg)
 	</figure></a>
 
-</div>
+</div></div>
