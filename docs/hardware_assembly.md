@@ -153,7 +153,7 @@ Users can also solder their wire connections directly to the pins of the SparkFu
 
 
 ## Heat Sink
-!!! info
+!!! tip
     With larger heat sinks, we recommend a test fit and attaching it last to avoid conflicts with other parts of the board. For example, the heat sink could block the PTH pins/slots or access to the jumper pad.
 
 To attach a [heat sink](https://www.sparkfun.com/products/18704) to the board, users will also need a piece of [thermal tape](https://www.sparkfun.com/products/17054). We recommend the following procedure:

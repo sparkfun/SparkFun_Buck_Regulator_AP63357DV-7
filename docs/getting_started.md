@@ -53,8 +53,8 @@ These boards feature the AP63357 from [Diodes Inc.](https://www.diodes.com/), a 
 </section>
 
 
-## Required Materials
 To get started, users will need a few items. Now some users may have a few of these items, feel free to modify your cart accordingly. For users just getting started with electronics, we have linked a few tutorials to establish a foundation of knowledge to follow along with this hookup guide.
+## :fontawesome-solid-list-check:&nbsp;Required Materials
 
 * [SparkFun Buck Regulator Breakout - 5V (AP63357DV)](https://www.sparkfun.com/products/21255)
 * [Heat Sink](https://www.sparkfun.com/products/18704 "Thermal tape is included") - Used to help dissipate excess heat
@@ -278,7 +278,6 @@ To get started, users will need a few items. Now some users may have a few of th
 			<img src="https://cdn.sparkfun.com/c/264-148/assets/learn_tutorials/6/6/4/PCB_TraceCutLumenati.jpg" alt="Tutorial's thumbnail"></a>
 		</p>
 
-## Suggested Reading
 	To modify the [jumper](hardware_overview/#jumper), users will need [soldering equipment](https://www.sparkfun.com/categories/49) and/or a [hobby knife](https://www.sparkfun.com/categories/379).
 
 
@@ -370,6 +369,8 @@ To get started, users will need a few items. Now some users may have a few of th
 	</div>
 
 
+
+## :material-bookshelf:&nbsp;Suggested Reading
 
 As a more sophisticated product, we will skip over the more fundamental tutorials (i.e. [**Ohm's Law**](https://learn.sparkfun.com/tutorials/voltage-current-resistance-and-ohms-law) and [**What is Electricity?**](https://learn.sparkfun.com/tutorials/what-is-electricity)). However, below are a few tutorials that may help users familiarize themselves with various aspects of the board.
 

@@ -1,7 +1,4 @@
 * Product Pages:
-    * [5V Buck Regulator](https://www.sparkfun.com/products/21255)
-    * [5V BabyBuck Regulator](https://www.sparkfun.com/products/21256)
-    * Board Files:
 
 <section class="grid cards col-3" style="grid-template-columns: repeat(auto-fit,minmax(8rem,1fr));" markdown>
 
@@ -9,47 +6,52 @@
 
             ---
 
-            * [Schematic](./board_files/schematic-Buck5V.pdf) (PDF)
-            * [Eagle Files](./board_files/eagle_files-Buck5V.zip) (ZIP)
-            * [Board Dimensions](./board_files/dimensions-Buck5V.pdf) (PDF)
+    * :sfe-logo: [Product Category](https://www.sparkfun.com/categories/tags/buck-)
+    * :fontawesome-solid-file-pdf: [Board Dimensions](./board_files/dimensions.pdf)
+    * :fontawesome-solid-file-pdf: [AP63357 Datasheet](./component_documentation/AP63356-AP63357.pdf)
+    * :material-folder-cog: Design Files:
+        * :fontawesome-solid-file-pdf: [Schematic](./board_files/schematic.pdf)
+        * :material-folder-zip: [Eagle Files](./board_files/eagle_files.zip)
 
         - ### BabyBuck Regulator Breakout - 5V (AP63357)
 
             ---
 
-            * [Schematic](./board_files/schematic-BabyBuck5V.pdf) (PDF)
-            * [Eagle Files](./board_files/eagle_files-BabyBuck5V.zip) (ZIP)
-            * [Board Dimensions](./board_files/dimensions-BabyBuck5V.pdf) (PDF)
+    * :sfe-logo: [5V Buck Regulator](https://www.sparkfun.com/products/21255)
+    * :fontawesome-solid-file-pdf: [Schematic](./board_files/schematic-Buck5V.pdf)
+    * :material-folder-zip: [Eagle Files](./board_files/eagle_files-Buck5V.zip)
+    * :fontawesome-solid-file-pdf: [Board Dimensions](./board_files/dimensions-Buck5V.pdf)
 
         - ### Composite Files (Both Boards)
 
             ---
 
-            * [Schematic](./board_files/schematic.pdf) (PDF)
-            * [Eagle Files](./board_files/eagle_files.zip) (ZIP)
-            * [Board Dimensions](./board_files/dimensions.pdf) (PDF)
+    * :sfe-logo: [5V BabyBuck Regulator](https://www.sparkfun.com/products/21256)
+    * :fontawesome-solid-file-pdf: [Schematic](./board_files/schematic-BabyBuck5V.pdf)
+    * :material-folder-zip: [Eagle Files](./board_files/eagle_files-BabyBuck5V.zip)
+    * :fontawesome-solid-file-pdf: [Board Dimensions](./board_files/dimensions-BabyBuck5V.pdf)
 
         </section>
 
-    * [SFE Product Showcase Video](https://youtu.be/g2MgO2fjqsw)
-    * [GitHub Hardware Repo](https://github.com/sparkfun/SparkFun_Buck_Regulator_AP63357DV-7)
+* :material-youtube: [SFE Product Showcase Video](https://youtu.be/g2MgO2fjqsw)
+* :material-github: [GitHub Hardware Repo](https://github.com/sparkfun/SparkFun_Buck_Regulator_AP63357DV-7)
 
 ## Additional Resources
 * [DC/DC Converter Product Category](https://www.sparkfun.com/categories/tags/dc-dc-converter)
 * [Buck-Boost Product Category](https://www.sparkfun.com/categories/tags/buck-boost)
-* [SparkFun Technical Assistance](https://www.sparkfun.com/technical_assistance)
 
 
 ## Hardware Component Documentation
 * 5V Buck Regulator: [AP63357](./component_documentation/AP63356-AP63357.pdf) (PDF)
+* :material-account-supervisor: [SparkFun Technical Assistance](https://www.sparkfun.com/technical_assistance)
 
 
-## Manufacturer's Resources
+## 🏭&nbsp;Manufacturer's Resources
 Diodes Incorporated also provides great resources for the AP63357 Buck Regulator: 
 
 * [AP63357 Product Page](https://www.diodes.com/part/view/AP63357/)
-    * [Technical Documentation](https://www.diodes.com/part/view/AP63357/#tab-details)
-* [Technical Support Page](https://www.diodes.com/about/contact-us/technical-support/)
+    * :material-file-document-multiple: [Technical Documentation](https://www.diodes.com/part/view/AP63357/#tab-details)
+* :material-head-question: [Technical Support Page](https://www.diodes.com/about/contact-us/technical-support/)
 
 <center>
 ![QR code to the hookup guide](../img/qr_code/hookup_guide.png){ .qr }
