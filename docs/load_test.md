@@ -1,3 +1,7 @@
+---
+icon: material/speedometer
+---
+
 For users who would like to test their buck regulators, this page demonstrates a simple load test on the [5V buck regulator board](https://www.sparkfun.com/products/21255).
 
 !!! note

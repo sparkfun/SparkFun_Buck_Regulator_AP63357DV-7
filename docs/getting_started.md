@@ -1,3 +1,7 @@
+---
+icon: material/book-open-page-variant
+---
+
 # Getting Started
 
 !!! hot "**Danger:** These boards can get <span style="color: #ff1744;">extremely **HOT** :material-thermometer-alert:</span>"

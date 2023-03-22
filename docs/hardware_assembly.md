@@ -1,3 +1,7 @@
+---
+icon: material/tools
+---
+
 !!! hot "**Danger:** These boards can get <span style="color: #ff1744;">extremely **HOT** :material-thermometer-alert:</span>"
 	
 	Please handle these boards with the utmost caution. Users can easily burn themselves when the board outputs anything over 2A. 
