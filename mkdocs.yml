@@ -127,7 +127,7 @@ theme:
       link: octicons/link-16
 
   # Adds PDF icon to download hookup guide
-  custom_dir: docs/overrides
+  custom_dir: overrides
 
 
 # Included MkDocs plugins
@@ -198,7 +198,7 @@ markdown_extensions:
 # Configures social icons in the footer
 extra:
   social:
-    - icon: sfe_logo
+    - icon: sfe-logo
       link: https://www.sparkfun.com/products/21255
     - icon: fontawesome/brands/youtube
       link: https://www.youtube.com/sparkfun
@@ -214,12 +214,12 @@ extra:
 
 # Configures styling for PDF rendering and webpage layout
 extra_css:
-  - overrides/extra.css
+  - stylesheet/extra.css
 
 # Enables support for rendering block and inline block equations through MathJax
 extra_javascript:
   # Enables support for rendering block and inline block equations through MathJax
-  - overrides/mathjax.js
+  - javascript/mathjax.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
