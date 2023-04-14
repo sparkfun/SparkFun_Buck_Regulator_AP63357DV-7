@@ -58,7 +58,7 @@
 
 /* SparkFun ========================================================================= */
 .md-typeset :is(.tip)>:is(.admonition-title,summary):before {
-  background-color: #ee2e22;
+  background-color: #e0311d;
 }
 
 
