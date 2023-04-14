@@ -44,11 +44,9 @@ Product Variants
 * **AP63203 - 3.3V Buck Regulators**
     * COM-18356: [SparkFun Buck Regulator Breakout - 3.3V (AP63203)](https://www.sparkfun.com/products/18356)
     * COM-18357: [SparkFun BabyBuck Regulator Breakout - 3.3V (AP63203)](https://www.sparkfun.com/products/18357)
-<!-- 
-* AP3429A - 3.3V & 1.8V Buck Regulators
+* **AP3429A - 3.3V & 1.8V Buck Regulators**
     * COM-21337: [SparkFun Buck Regulator Breakout - 3.3V (AP63203)](https://www.sparkfun.com/products/21337)
     * COM-21338: [SparkFun Buck Regulator Breakout - 1.8V (AP63203)](https://www.sparkfun.com/products/21338)
- -->
 
 Version History
 ---------------

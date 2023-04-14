@@ -428,6 +428,10 @@ As a more sophisticated product, we will skip over the more fundamental tutorial
 			<img src="https://cdn.sparkfun.com/c/264-148/assets/learn_tutorials/1/8/9/0/Thumbnail.png"></a>
 		</td>
 		<td align="center">
+			<a href="https://docs.sparkfun.com/SparkFun_Buck_Regulator_AP3429A">AP3429A - 1.8/3.3V Buck Regulator Hookup Guide<br>
+			<img src="https://docs.sparkfun.com/SparkFun_Buck_Regulator_AP3429A/img/hookup_guide/load_test.jpg"></a>
+		</td>
+		<td align="center">
 			<a href="https://learn.sparkfun.com/tutorials/5">How to Solder: Through-Hole Soldering<br>
 			<img src="https://cdn.sparkfun.com/c/264-148/assets/e/3/9/9/4/51d9fbe1ce395f7a2a000000.jpg" alt="Tutorial's thumbnail"></a>
 		</td>
@@ -520,6 +524,15 @@ As a more sophisticated product, we will skip over the more fundamental tutorial
 
 	<figure markdown>
 	![Buck Regulator Hookup Guide](https://cdn.sparkfun.com/c/264-148/assets/learn_tutorials/1/8/9/0/Thumbnail.png)
+	</figure></a>
+
+-   <a href="https://docs.sparkfun.com/SparkFun_Buck_Regulator_AP3429A">
+	**AP3429A - 1.8/3.3V Buck Regulator Hookup Guide**
+
+	---
+
+	<figure markdown>
+	![AP3429A Buck Regulators Hookup Guide](https://docs.sparkfun.com/SparkFun_Buck_Regulator_AP3429A/img/hookup_guide/load_test.jpg)
 	</figure></a>
 
 -   <a href="https://learn.sparkfun.com/tutorials/5">
