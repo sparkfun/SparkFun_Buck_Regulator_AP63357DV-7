@@ -429,7 +429,7 @@ Below, are a few tutorials that may help users familiarize themselves with vario
 		</td>
 		<td align="center">
 			<a href="https://docs.sparkfun.com/SparkFun_Buck_Regulator_AP3429A">AP3429A - 1.8/3.3V Buck Regulator Hookup Guide<br>
-			<img src="https://docs.sparkfun.com/SparkFun_Buck_Regulator_AP3429A/img/hookup_guide/load_test.jpg"></a>
+			<img src="https://docs.sparkfun.com/SparkFun_Buck_Regulator_AP3429A/assets/img/thumbnail.jpg"></a>
 		</td>
 		<td align="center">
 			<a href="https://learn.sparkfun.com/tutorials/5">How to Solder: Through-Hole Soldering<br>
